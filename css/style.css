@@ -781,7 +781,19 @@ html, body {
     
     }
 
+   .slides {
+        /* width:150px; */
+        width: 100%;
+        height: 16em;
+        max-height: 250px;
+        background-color: pink;
+    }
 
+
+    .slides a img {
+        height: 16em;
+        width: 100%;
+    }
 
     .swiper-pagination {
         /* border: 1px solid red; */
@@ -800,6 +812,27 @@ html, body {
         .swiper-pagination {
             top: 23%;
         }
+    }
+
+
+
+    @media screen and (max-width:420px) {
+
+        .slides {
+            /* width:150px; */
+            width: 100%;
+            height: 14em;
+            max-height: 190px;
+            background-color: pink;
+        }
+    
+    
+        .slides a img {
+            height: 14em;
+            width: 100%;
+        }
+    
+        
     }
 
 
@@ -843,6 +876,23 @@ html, body {
             top: 20px;
             padding: 0.4rem;
         }
+
+
+        .slides {
+            /* width:150px; */
+            width: 100%;
+            height: 14em;
+            max-height: 170px;
+            background-color: pink;
+        }
+    
+    
+        .slides a img {
+            height: 14em;
+            width: 100%;
+        }
+    
+
 }
 
 
