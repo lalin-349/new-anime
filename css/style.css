@@ -359,7 +359,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/type-vertical.png'); /* Same image as the banner background */
+    background-image: url('./img/type-vertical.png'); /* Same image as the banner background */
     background-size: cover; /* Adjust as needed */
     filter: blur(10px); /* Apply the blur effect */
     z-index: 0; /* Send the image behind the text */
