@@ -12,9 +12,9 @@ var slider1 = new Swiper ('.slider1', {
       el: ".swiper-pagination",
       clickable: true,
     },
-    autoplay: {
-      delay: 1600,
-    }
+    // autoplay: {
+    //   delay: 1600,
+    // }
   });
 
 
