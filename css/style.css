@@ -1177,8 +1177,9 @@ html, body {
     .recom p {
         color:white;
         font-family: "Fugaz One", sans-serif;
-        font-size: 1rem;
-        font-size-adjust: 0.6;
+        /* font-size: 2rem; */
+        /* font-size-adjust: 0.5; */
+        font-size: 1.9em;
     }
 
 
@@ -1221,6 +1222,19 @@ html, body {
 
     
 }
+
+
+/* @media screen and (max-width:336px) {
+    
+    .recom p {
+        color:white;
+        font-family: "Fugaz One", sans-serif;
+        /* font-size: 2rem; */
+        /* font-size-adjust: 0.5;
+        font-size: 1.5em;
+    }
+
+} */
 
 
 
