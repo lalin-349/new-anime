@@ -522,8 +522,8 @@ html, body {
     color: black;
 }
 
-.swiper-pagination {
-    top: 97%;
+.banner .swiper-pagination {
+    top: 95%;
     position: absolute;
 }
 
@@ -691,18 +691,20 @@ html, body {
         margin-top: 13em;
         display: flex;
         border-radius: 0px;
+        position: relative;
     }
 
     .banner-info .main-name {
         margin-top: 0%;
-        margin-left: 40%;
+        margin-left: 35%;
         font-size: 2.5em;
     }
 
     .banner-info .button {
-        margin-bottom: 2em;
-        margin-right: 7em;
-        padding: 17px;
+        position: absolute;
+        left: 27%;
+        top: 18%;
+        padding: 5px;
         /* border: 2px solid white; */
         display: flex;
         justify-content: center;
@@ -743,8 +745,8 @@ html, body {
 
     .symbols {
         position: absolute;
-        top:20%;
-        left: 10%;
+        top:30%;
+        left: 80%;
         width: 10%;
 } 
 
@@ -758,12 +760,22 @@ html, body {
 @media screen and (max-width:700px) {
     .banner-info .button {
         position: absolute;
-        left: 30%;
+        left: 29%;
         top: 20px;
         padding: 0.4rem;
     }
     .banner-info .main-name {
         margin-left: 35%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .banner-info .button {
+        left: 20%;
+    }
+    .banner-info .main-name {
+        margin-left: 25%;
     }
 }
 
@@ -802,6 +814,17 @@ html, body {
 
     }
 
+
+        .banner-info .button {
+            position: absolute;
+            left: 10%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+        .banner-info .main-name {
+            margin-left: 5%;
+        }
+    
 }
 
     @media screen and (max-width:480px) {
@@ -809,8 +832,8 @@ html, body {
             margin-top: 70px;
             box-shadow: none;
         }
-        .swiper-pagination {
-            top: 23%;
+        .banner .swiper-pagination {
+            top: 90%;
         }
     }
 
@@ -831,44 +854,49 @@ html, body {
             height: 14em;
             width: 100%;
         }
-    
+
         
     }
 
 
+    @media screen and (max-width:400px) {
+        .symbols {
+            margin-left: 0px;
+            margin-top: 20px;
+        } 
+    
+        .symbols .hours img {
+            width: 16px;
+            background-color: white;
+            padding: 1.3px;
+            border-radius: 4px;
+        }
+    
+        .symbols .calender img {
+            width: 16px;
+            height: 18px;
+            background-color: white;
+            padding: 1.3px;
+            border-radius: 4px;
+        }
+    
+        .symbols .hours p {
+            font-size: 0.9em;
+        }
+    
+        .symbols .calender p {
+            font-size: 0.9em;
+        }
+    }
+
+
 @media screen and (max-width:320px) {
+
     .banner-info .main-name {
-        font-size: 30px;
+        font-size: 35px;
         margin-left: 20px;
     }
 
-    .symbols {
-        margin-left: 0px;
-        position: relative;
-    } 
-
-    .symbols .hours img {
-        width: 16px;
-        background-color: white;
-        padding: 1.3px;
-        border-radius: 4px;
-    }
-
-    .symbols .calender img {
-        width: 16px;
-        height: 18px;
-        background-color: white;
-        padding: 1.3px;
-        border-radius: 4px;
-    }
-
-    .symbols .hours p {
-        font-size: 0.9em;
-    }
-
-    .symbols .calender p {
-        font-size: 0.9em;
-    }
     
     .banner-info .button {
             position: absolute;
@@ -970,6 +998,7 @@ html, body {
     font-family: "Fugaz One", sans-serif;
     font-size: 2.7rem;
     font-size-adjust: 0.4;
+    line-height: 2;
 }
 
 
@@ -1152,6 +1181,7 @@ html, body {
         font-family: "Fugaz One", sans-serif;
         font-size: 2.3rem;
         font-size-adjust: 0.4;
+        line-height: 0;
     }
 }
 
@@ -1175,11 +1205,13 @@ html, body {
     }
     
     .recom p {
-        color:white;
+        color:rgb(255, 255, 255);
         font-family: "Fugaz One", sans-serif;
         /* font-size: 2rem; */
-        /* font-size-adjust: 0.5; */
-        font-size: 1.9em;
+        font-size-adjust: 0.4;
+        font-size: 30px;
+        line-height: 1;
+        width: 100%;
     }
 
 
@@ -1212,8 +1244,9 @@ html, body {
     background-color: #2aa395;
     width: 130px;
     height:40px;
-    font-size: 1em;
-    font-size-adjust: 0.4;
+    font-size: 0.7em;
+    line-height: 1px;
+    font-size-adjust: 0.6;
     font-weight: 600;
     margin-top: 30px;
     transition: all 0.8s ease 0s;
@@ -1227,7 +1260,7 @@ html, body {
  @media screen and (max-width:336px) {
     
     .recom p {
-        color:white;
+        color:rgb(255, 255, 255);
         font-family: "Fugaz One", sans-serif;
         /* font-size: 2rem; */
         /* font-size-adjust: 0.5;*/
@@ -1292,3 +1325,134 @@ html, body {
     width: calc(100% - 100px);
 }
 
+
+
+@media screen and (max-width:1094px) {
+    .box1 h3 {
+    font-size: 1em;
+    font-size-adjust: 0.6;
+    font-weight: 400;
+    line-height: 29px;
+    }
+
+    .box1 {
+        width: 40%;
+        border: 2px solid rgb(55, 255, 218);
+        height: 60vh;
+        margin: 50px 0px 50px 20px; 
+    }
+    
+}
+
+@media screen and (max-width:840px) {
+    
+
+.black-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    margin-top: 200px;
+}
+
+.box1 h3 {
+    font-size: 1em;
+    font-size-adjust: 0.6;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 250px;
+    }
+
+    .box1 {
+        width: 80%;
+        border: 2px solid rgb(55, 255, 218);
+        height: 90vh;
+        margin: 50px 0px 50px 20px; 
+    }
+
+.box1 p {
+    font-size: 0.7em;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+    margin-top: 10px;
+
+}
+
+.box2 {
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 17%;
+}
+
+.box2 video {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:762px) {
+    
+
+    .black-container {
+        margin-top: 130px;
+    }
+    
+}
+
+
+@media screen and (max-width:729px) {
+    .box1 {
+        height: 80vh;
+    }
+}
+
+
+@media screen and (max-width:630px) {
+    .box1 {
+        height: 70vh;
+    }
+}
+
+
+@media screen and (max-width:540px) {
+
+    .box2 {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 55px;
+        left: 17%;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 240px;
+    }
+
+    .box2 video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .box1 {
+        height: 60vh;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .black-container {
+        margin-top: 10px;
+    }
+}
