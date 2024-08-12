@@ -1510,28 +1510,6 @@ html, body {
     margin-top: 150px;
 }
 
-.latest-movies {
-    width: 100%;
-    color: rgb(56, 255, 218);
-    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */ /*important*/
-    /* background-color: #2aa395; */
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-
-
-.latest-movies img {
-    width: 27px;
-    margin: 0px 20px 5px 80px;
-}
-
-.latest-movies p {
-    font-weight: 600;
-    font-size: 2em;
-}
-
-
 .movies-cards {
     display: flex;
     flex-wrap: wrap;
@@ -1542,6 +1520,30 @@ html, body {
     /* background-color: #2f00ff; */
     justify-content: space-evenly;    
 }
+
+.latest-movies {
+    width: 100%;
+    color: rgb(56, 255, 218);
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */ /*important*/
+    /* background-color: #2aa395; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.latest-movies img {
+    width: 27px;
+    margin: 0px 20px 5px 20px;
+}
+
+.latest-movies p {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+
 
 .movies-box {
     width: 200px;
@@ -1592,9 +1594,8 @@ html, body {
 
 @media screen and (max-width:414px) {
 
-    .movies-cards {
-      
-        margin-top: 100px;   
+    .latest-movies {
+        margin-bottom: 100px;
     }
 
     .movies-box {
