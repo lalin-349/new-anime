@@ -738,6 +738,21 @@
 }
 
 
+@media screen and (max-width:510px) {
+
+        .banner-info2 .button2 {
+            position: absolute;
+            left: 5%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+        .banner-info2 .main-name2 {
+            margin-left: 15%;
+        }
+    
+}
+
+
     @media screen and (max-width:480px) {
         .swiper-slide .banner-pics2 {
             margin-top: 70px;
@@ -751,8 +766,7 @@
     
 @media screen and (max-width:320px) {
     .banner-info2 .main-name2 {
-        font-size: 30px;
-        margin-left: 20px;
+        font-size: 35px;
     }
 
     .symbols {
@@ -784,8 +798,6 @@
     }
     
     .banner-info2 .button2 {
-            position: absolute;
-            left: 10%;
             top: 20px;
             padding: 0.4rem;
         }
@@ -982,18 +994,18 @@
     }
 }
 
+@media screen and (max-width:510px) {
 
-@media screen and (max-width:455px) {
     .banner-info3 .button3 {
         position: absolute;
-        left: 30%;
+        left: 4.5%;
         top: 20px;
         padding: 0.4rem;
     }
     .banner-info3 .main-name3 {
-        margin-left: 45%;
-        margin-top: 0px;
+        margin-left: 20%;
     }
+
 }
 
     @media screen and (max-width:480px) {
@@ -1007,7 +1019,7 @@
 
     @media screen and (max-width:320px) {
         .banner-info3 .main-name3 {
-            font-size: 30px;
+            font-size: 40px;
             margin-left: 20%;
             padding-right: 20%;
         }
@@ -1210,19 +1222,20 @@
     }
 }
 
+@media screen and (max-width:510px) {
 
-@media screen and (max-width:455px) {
     .banner-info4 .button4 {
         position: absolute;
-        left: 30%;
+        left: 5%;
         top: 20px;
         padding: 0.4rem;
     }
     .banner-info4 .main-name4 {
-        margin-left: 45%;
-        margin-top: 0px;
+        margin-left: 20%;
     }
+
 }
+
 
     @media screen and (max-width:480px) {
         .swiper-slide .banner-pics4 {
@@ -1235,7 +1248,7 @@
 
     @media screen and (max-width:320px) {
         .banner-info4 .main-name4 {
-            font-size: 30px;
+        
             margin-left: 20%;
             padding-right: 20%;
         }
@@ -1444,6 +1457,21 @@
     }
     
 
+    @media screen and (max-width:510px) {
+
+        .banner-info5 .button5 {
+            position: absolute;
+            left: 5%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+        .banner-info5 .main-name5 {
+            margin-left: 5%;
+        }
+    
+    }
+    
+
 
     @media screen and (max-width:480px) {
         .swiper-slide .banner-pics5 {
@@ -1454,8 +1482,7 @@
 
 @media screen and (max-width:405px) {
     .banner-info5 .main-name5 {
-        font-size: 7.5vw;
-        margin-left: 35%;
+        font-size: 9.5vw;
         margin-top: 2%;
     }
 
@@ -1464,14 +1491,12 @@
 
 @media screen and (max-width:320px) {
     .banner-info5 .main-name5 {
-        font-size: 25px;
-        margin-left: 15%;
-        margin-top: 5%;
+        font-size: 30px;
+        margin-left: 10%;
     }
 
     
     .banner-info5 .button5 {
-            position: absolute;
             left: 5%;
             top: 20px;
             padding: 0.4rem;
