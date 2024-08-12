@@ -824,6 +824,13 @@ html, body {
         .banner-info .main-name {
             margin-left: 5%;
         }
+
+
+        .swipe-for-more {
+            position: absolute;
+            top: calc(100% - 10%);
+            left: calc(100% - 65%);
+        }
     
 }
 
@@ -856,7 +863,7 @@ html, body {
         .swipe-for-more {
             position: absolute;
             top: calc(100% - 20%);
-            left: calc(100% - 60%);
+            left: calc(100% - 65%);
         }
         
     }
@@ -893,7 +900,7 @@ html, body {
 
         .swipe-for-more {
             position: absolute;
-            top: calc(100% - 20%);
+            top: calc(100% - 18%);
             left: calc(100% - 66%);
         }
         
@@ -1225,7 +1232,7 @@ html, body {
             color: white;
             font-family: "Jersey 20";
             font-size: 20px;
-            margin-top: -45px;
+            margin-top: -25px;
         }
         
 }
