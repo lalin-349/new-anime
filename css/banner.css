@@ -1,0 +1,1759 @@
+/* 2nd  banner*/
+
+
+
+.swiper-slide .banner-pics2  {
+    width: 80%;
+    height: 31.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+
+    /* background-color: rgb(0, 0, 0); */
+    
+    box-shadow: 0px 0px 40px 3px rgb(0, 0, 0);  
+    position: relative;
+ }
+
+ .banner-pics2::after {
+    content: ''; /* Create a pseudo-element for the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/luffy.jpg'); /* Same image as the banner background */
+    background-size: cover; /* Adjust as needed */
+    filter: blur(10px); /* Apply the blur effect */
+    z-index: 0; /* Send the image behind the text */
+    border-radius:40px;
+    background-position: center center;
+
+}
+
+ 
+
+.banner-pics2 .banner-info2 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-info2 .main-name2 {
+    font-size: 4em;
+    /* font-family: "Palette Mosaic", system-ui; */
+    font-family: 'Sedgwick Ave Display';
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+}
+
+.banner-info2 .titles2 {
+    font-size: 1.1em;
+    width: 450px;
+    /* border: 2px solid aqua; */
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 35px;
+    
+}
+
+ .main-pics2 {
+    width: 460px;
+
+    height: 16rem;
+    object-fit:cover;
+    overflow: hidden;
+    margin-left: 160px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 3px rgb(0, 0, 0);  
+
+}
+
+.main-pics2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-info2 .button2 {
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    width: 90px;
+    padding: 4px;
+    margin-left:200px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    background-color: rgb(211, 217, 251);
+    font-weight: 600;
+
+}
+
+.banner-info2 .button2:hover {
+    background-color: rgb(181, 192, 255);
+
+}
+
+
+
+/* 3rd banner */
+.swiper-slide .banner-pics3  {
+    width: 80%;
+    height: 31.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+
+    /* background-color: rgb(0, 0, 0); */
+    
+ 
+    position: relative;
+ }
+
+ .banner-pics3::after {
+    content: ''; /* Create a pseudo-element for the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/mashle.jpg');/* Same image as the banner background */
+    background-size: cover; /* Adjust as needed */
+    filter: blur(10px); /* Apply the blur effect */
+    z-index: 0; /* Send the image behind the text */
+    border-radius:40px;
+    background-position: center center;
+    
+
+}
+
+
+.banner-pics3 .banner-info3 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-info3 .main-name3 {
+    font-size: 4em;
+    /* font-family: "Palette Mosaic", system-ui; */
+    font-family: 'Sedgwick Ave Display';
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+    -webkit-text-stroke: 2px rgb(255, 247, 130);
+}
+
+.banner-info3 .titles3 {
+    font-size: 1.1em;
+    width: 450px;
+    /* border: 2px solid aqua; */
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 35px;
+    
+}
+
+ .main-pics3 {
+    width: 460px;
+
+    height: 16rem;
+    object-fit:cover;
+    overflow: hidden;
+    margin-left: 160px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 3px rgb(0, 0, 0); 
+
+}
+
+.main-pics3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-info3 .button3 {
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    width: 90px;
+    padding: 4px;
+    margin-left:200px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    background-color: rgb(251, 255, 125);
+    font-weight: 600;
+
+}
+
+.banner-info3 .button3:hover {
+    background-color: rgb(210, 216, 39);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4rd banner */
+.swiper-slide .banner-pics4  {
+    width: 80%;
+    height: 31.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+
+    /* background-color: rgb(0, 0, 0); */
+    
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0); 
+    position: relative;
+ }
+
+ .banner-pics4::after {
+    content: ''; /* Create a pseudo-element for the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/naruto.jpg');/* Same image as the banner background */
+    background-size: cover; /* Adjust as needed */
+    filter: blur(10px); /* Apply the blur effect */
+    z-index: 0; /* Send the image behind the text */
+    border-radius:40px;
+    background-position: center center;
+
+}
+
+ 
+
+.banner-pics4 .banner-info4 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-info4 .main-name4 {
+    font-size: 4em;
+    /* font-family: "Palette Mosaic", system-ui; */
+    font-family: 'Sedgwick Ave Display';
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+}
+
+.banner-info4 .titles4 {
+    font-size: 1.1em;
+    width: 450px;
+    /* border: 2px solid aqua; */
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 35px;
+    
+}
+
+ .main-pics4 {
+    width: 460px;
+
+    height: 16rem;
+    object-fit:cover;
+    overflow: hidden;
+    margin-left: 160px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 3px rgb(0, 0, 0); 
+
+}
+
+.main-pics4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-info4 .button4 {
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    width: 90px;
+    padding: 4px;
+    margin-left:200px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    background-color: rgb(230, 118, 81);
+    font-weight: 600;
+
+}
+
+.banner-info4 .button4:hover {
+    background-color: rgb(255, 132, 91);
+
+}
+
+
+/* 5th slide */
+
+.swiper-slide .banner-pics5  {
+    width: 80%;
+    height: 31.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+
+    /* background-color: rgb(0, 0, 0); */
+    
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0); 
+    position: relative;
+
+ }
+
+ .banner-pics5::after {
+    content: ''; /* Create a pseudo-element for the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/juju.jpg');/* Same image as the banner background */
+    background-size: cover; /* Adjust as needed */
+    filter: blur(10px); /* Apply the blur effect */
+    z-index: 0; /* Send the image behind the text */
+    border-radius:40px;
+    background-position: center center;
+    
+
+}
+
+ 
+
+.banner-pics5 .banner-info5 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-info5 .main-name5 {
+    font-size: 4em;
+    /* font-family: "Palette Mosaic", system-ui; */
+    font-family: 'Sedgwick Ave Display';
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+    -webkit-text-stroke: 2px rgb(73, 198, 212);
+}
+
+.banner-info5 .titles5 {
+    font-size: 1.1em;
+    width: 450px;
+    /* border: 2px solid aqua; */
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 35px;
+    
+}
+
+ .main-pics5 {
+    width: 460px;
+
+    height: 16rem;
+    object-fit:cover;
+    overflow: hidden;
+    margin-left: 160px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 3px rgb(0, 0, 0);  
+
+}
+
+.main-pics5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-info5 .button5 {
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    width: 90px;
+    padding: 4px;
+    margin-left:200px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    background-color: rgb(73, 198, 212);
+    font-weight: 600;
+
+}
+
+.banner-info5 .button5:hover {
+    background-color: rgb(90, 239, 255);;
+
+}
+
+
+/* 6th slide */
+
+
+.swiper-slide .banner-pics6  {
+    width: 80%;
+    height: 31.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+
+    /* background-color: rgb(0, 0, 0); */
+    
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0); 
+    position: relative;
+ }
+
+ .banner-pics6::after {
+    content: ''; /* Create a pseudo-element for the background image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/quin.jpg');/* Same image as the banner background */
+    background-size: cover; /* Adjust as needed */
+    filter: blur(10px); /* Apply the blur effect */
+    z-index: 0; /* Send the image behind the text */
+    border-radius:40px;
+    background-position: center center;
+
+}
+
+
+ 
+.banner-pics6 .banner-info6 {
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-info6 .main-name6 {
+    font-size: 3.5em;
+    /* font-family: "Palette Mosaic", system-ui; */
+    font-family: 'Sedgwick Ave Display';
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+}
+
+.banner-info6 .titles6 {
+    font-size: 1.1em;
+    width: 450px;
+    /* border: 2px solid aqua; */
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 35px;
+    
+}
+
+ .main-pics6 {
+    width: 460px;
+
+    height: 16rem;
+    object-fit:cover;
+    overflow: hidden;
+    margin-left: 160px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 3px rgb(0, 0, 0);
+
+}
+
+.main-pics6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-info6 .button6 {
+    margin-top: 40px;
+    font-family: "Noto Sans", sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    width: 90px;
+    padding: 4px;
+    margin-left:200px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    background-color: rgb(230, 118, 81);
+    font-weight: 600;
+
+}
+
+.banner-info6 .button6:hover {
+    background-color: rgb(255, 132, 91);
+
+}
+
+
+
+/* 2nd slide media */
+
+@media screen and (max-width: 1405px) {
+
+    .main-pics2 {
+        width: 29em;
+        height: 16rem;
+        
+    }
+}
+
+@media screen and (max-width:1321px) {
+    .main-pics2 {
+        width: 25em;
+        height: 13rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .main-pics2 {
+        width: 20em;
+        height: 11rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .main-pics2 {
+        width: 20rem;
+        height: 35%;
+        margin-left: 15%; 
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1175px) {
+    .main-pics2 {
+        display: none;
+    }
+
+    .swiper-slide .banner-pics2 {
+        width: 80%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+    .banner-pics2::after {
+        width: 100%;
+        height: 400px;
+        filter: blur(0);
+    }
+
+    .banner-pics2 .banner-info2 {
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: 0px;
+        margin-left: -75%;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        border: 0.1px solid white;
+    }
+
+    .banner-info2 .main-name2 {
+        font-size: 2.7em;
+        /* border: 2px solid white; */
+        margin-top: 60px;
+
+    }
+
+    .banner-info2 .button2 {
+        margin-left: 25%;
+
+    }
+
+    .banner-info2 .titles2 {
+        display: none;
+        
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .banner-info2 .main-name2 {
+        font-size: 2.3em;
+        /* border: 2px solid white; */
+        margin-top: 75px;
+
+    }
+
+    .banner-info2 .button2 {
+        margin-left: 16%;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+   
+    .swiper-slide .banner-pics2  {
+        border-radius:0px;
+        height: 20em;
+        width: 100%;
+    }
+
+
+     .banner-pics2::after {
+        border-radius:0px;
+        height: 20em;
+    }
+
+
+    .main-pics2 {
+        border-radius: 0px;
+    }
+
+    .swiper-slide {
+        margin-top: -50px;
+    }
+
+
+    .banner-pics2 .banner-info2 {
+        width: 100%;
+        margin-left: 0%;
+        height: 7em;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border: 0.1px solid transparent;
+        margin-top: 13em;
+        display: flex;
+        border-radius: 0px;
+        position: relative;
+    }
+
+    .banner-info2 .main-name2 {
+        margin-top: 0%;
+        margin-left: 39%;
+        font-size: 2.5em;
+    }
+
+    .banner-info2 .button2 {
+        position: absolute;
+        left: 27%;
+        top: 18%;
+        padding: 5px;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .banner-info2 .button2 {
+        position: absolute;
+        left: 25%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info2 .main-name2 {
+        margin-left: 36%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-info2 .button2 {
+        left: 15%;
+    }
+    .banner-info2 .main-name2 {
+        margin-left: 25%;
+    }
+}
+
+
+@media screen and (max-width:510px) {
+
+        .banner-info2 .button2 {
+            position: absolute;
+            left: 5%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+        .banner-info2 .main-name2 {
+            margin-left: 15%;
+        }
+    
+}
+
+
+    @media screen and (max-width:480px) {
+        .swiper-slide .banner-pics2 {
+            margin-top: 70px;
+            box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+        }
+      
+
+    }
+
+
+    
+@media screen and (max-width:320px) {
+    .banner-info2 .main-name2 {
+        font-size: 35px;
+    }
+
+    .symbols {
+        margin-left: 0px;
+        position: relative;
+    } 
+
+    .symbols .hours img {
+        width: 16px;
+        background-color: white;
+        padding: 1.3px;
+        border-radius: 4px;
+    }
+
+    .symbols .calender img {
+        width: 16px;
+        height: 18px;
+        background-color: white;
+        padding: 1.3px;
+        border-radius: 4px;
+    }
+
+    .symbols .hours p {
+        font-size: 0.9em;
+    }
+
+    .symbols .calender p {
+        font-size: 0.9em;
+    }
+    
+    .banner-info2 .button2 {
+            top: 20px;
+            padding: 0.4rem;
+        }
+}
+    
+
+
+
+
+
+/* 3rd media slide */
+
+
+@media screen and (max-width: 1405px) {
+
+    .main-pics3 {
+        width: 29em;
+        height: 16rem;
+        
+    }
+}
+
+@media screen and (max-width:1321px) {
+    .main-pics3 {
+        width: 25em;
+        height: 13rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .main-pics3 {
+        width: 20em;
+        height: 11rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .main-pics3 {
+        width: 20rem;
+        height: 35%;
+        margin-left: 15%; 
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1175px) {
+    .main-pics3 {
+        display: none;
+    }
+
+    .swiper-slide .banner-pics3 {
+        width: 80%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+    .banner-pics3::after {
+        width: 100%;
+        height: 400px;
+        filter: blur(0);
+    }
+
+    .banner-pics3 .banner-info3 {
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: 0px;
+        margin-left: -75%;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        border: 0.1px solid white;
+    }
+
+    .banner-info3 .main-name3 {
+        font-size: 2.7em;
+        /* border: 2px solid white; */
+        margin-top: 70px;
+
+    }
+
+    .banner-info3 .button3 {
+        margin-left: 25%;
+
+    }
+
+    .banner-info3 .titles3 {
+        display: none;
+        
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .banner-info3 .main-name3 {
+        font-size: 2.3em;
+        /* border: 2px solid white; */
+        margin-top: 70px;
+
+    }
+
+    .banner-info3 .button3 {
+        margin-left: 16%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .swiper-slide .banner-pics3  {
+        border-radius:0px;
+        height: 20em;
+        width: 100%;
+    }
+
+
+     .banner-pics3::after {
+        border-radius:0px;
+        height: 20em;
+    }
+
+
+    .main-pics3 {
+        border-radius: 0px;
+    }
+
+    .swiper-slide {
+        margin-top: -50px;
+    }
+
+
+    .banner-pics3 .banner-info3 {
+        width: 100%;
+        margin-left: 0%;
+        height: 7em;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border: 0.1px solid transparent;
+        margin-top: 13em;
+        display: flex;
+        border-radius: 0px;
+        position: relative;
+    }
+
+    .banner-info3 .main-name3 {
+        margin-top: 0%;
+        margin-left: 42%;
+        font-size: 2.5em;
+    }
+
+    .banner-info3 .button3 {
+        position: absolute;
+        left: 27%;
+        top: 18%;
+        padding: 5px;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .banner-info3 .button3 {
+        position: absolute;
+        left: 30%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info3 .main-name3 {
+        margin-left: 45%;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-info3 .button3 {
+        left: 15%;
+    }
+    .banner-info3 .main-name3 {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:510px) {
+
+    .banner-info3 .button3 {
+        position: absolute;
+        left: 4.5%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info3 .main-name3 {
+        margin-left: 20%;
+    }
+
+}
+
+    @media screen and (max-width:480px) {
+        .swiper-slide .banner-pics3 {
+            margin-top: 70px;
+            box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+        }
+    }
+
+
+
+    @media screen and (max-width:320px) {
+        .banner-info3 .main-name3 {
+            font-size: 40px;
+            margin-left: 20%;
+            padding-right: 20%;
+        }
+    
+        
+        .banner-info3 .button3 {
+                position: absolute;
+                left: 5%;
+                top: 20px;
+                padding: 0.4rem;
+            }
+    }
+
+
+
+/* 4th media slide */
+
+
+@media screen and (max-width: 1405px) {
+
+    .main-pics4 {
+        width: 29em;
+        height: 16rem;
+        
+    }
+}
+
+@media screen and (max-width:1321px) {
+    .main-pics4 {
+        width: 25em;
+        height: 13rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .main-pics4 {
+        width: 20em;
+        height: 11rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .main-pics4 {
+        width: 20rem;
+        height: 35%;
+        margin-left: 15%; 
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1175px) {
+    .main-pics4 {
+        display: none;
+    }
+
+    .swiper-slide .banner-pics4 {
+        width: 80%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+    .banner-pics4::after {
+        width: 100%;
+        height: 400px;
+        filter: blur(0);
+    }
+
+    .banner-pics4 .banner-info4 {
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: 0px;
+        margin-left: -75%;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        border: 0.1px solid rgb(0, 0, 0);
+    }
+
+    .banner-info4 .main-name4 {
+        font-size: 2.7em;
+        /* border: 2px solid white; */
+        margin-top: 75px;
+
+    }
+
+    .banner-info4 .button4 {
+        margin-left: 25%;
+
+    }
+
+    .banner-info4 .titles4 {
+        display: none;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:900px) {
+    .banner-info4 .main-name4 {
+        font-size: 2.3em;
+        /* border: 2px solid white; */
+        margin-top: 75px;
+
+    }
+
+    .banner-info4 .button4 {
+        margin-left: 16%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .swiper-slide .banner-pics4  {
+        border-radius:0px;
+        height: 20em;
+        width: 100%;
+    }
+
+
+     .banner-pics4::after {
+        border-radius:0px;
+        height: 20em;
+    }
+
+
+    .main-pics4 {
+        border-radius: 0px;
+    }
+
+    .swiper-slide {
+        margin-top: -50px;
+    }
+
+
+    .banner-pics4 .banner-info4 {
+        width: 100%;
+        margin-left: 0%;
+        height: 7em;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border: 0.1px solid transparent;
+        margin-top: 13em;
+        display: flex;
+        border-radius: 0px;
+        position: relative;
+    }
+
+    .banner-info4 .main-name4 {
+        margin-top: 0%;
+        margin-left: 43%;
+        font-size: 2.5em;
+        -webkit-text-stroke: 2px rgb(255, 115, 69);
+    }
+
+    .banner-info4 .button4 {
+        position: absolute;
+        left: 27%;
+        top: 18%;
+        padding: 5px;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .banner-info4 .button4 {
+        position: absolute;
+        left: 30%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info4 .main-name4 {
+        margin-left: 45%;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-info4 .button4 {
+        left: 20%;
+    }
+    .banner-info4 .main-name4 {
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width:510px) {
+
+    .banner-info4 .button4 {
+        position: absolute;
+        left: 5%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info4 .main-name4 {
+        margin-left: 20%;
+    }
+
+}
+
+
+    @media screen and (max-width:480px) {
+        .swiper-slide .banner-pics4 {
+            margin-top: 70px;
+            box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+        }
+        
+    }
+
+
+    @media screen and (max-width:320px) {
+        .banner-info4 .main-name4 {
+        
+            margin-left: 20%;
+            padding-right: 20%;
+        }
+    
+        
+        .banner-info4 .button4 {
+                position: absolute;
+                left: 5%;
+                top: 20px;
+                padding: 0.4rem;
+            }
+    }
+
+
+
+
+
+/* 5th media slide */
+
+@media screen and (max-width: 1405px) {
+
+    .main-pics5 {
+        width: 29em;
+        height: 16rem;
+        
+    }
+}
+
+@media screen and (max-width:1321px) {
+    .main-pics5 {
+        width: 25em;
+        height: 13rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .main-pics5 {
+        width: 20em;
+        height: 11rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .main-pics5 {
+        width: 20rem;
+        height: 35%;
+        margin-left: 15%; 
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1175px) {
+    .main-pics5 {
+        display: none;
+    }
+
+    .swiper-slide .banner-pics5 {
+        width: 80%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+    .banner-pics5::after {
+        width: 100%;
+        height: 400px;
+        filter: blur(0);
+    }
+
+    .banner-pics5 .banner-info5 {
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: 0px;
+        margin-left: -75%;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        border: 0.1px solid white;
+    }
+
+    .banner-info5 .main-name5 {
+        font-size: 2.4em;
+        /* border: 2px solid white; */
+        margin-top: 60px;
+
+    }
+
+    .banner-info5 .button5 {
+        margin-left: 25%;
+
+    }
+
+    .banner-info5 .titles5 {
+        display: none;
+        
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .banner-info5 .main-name5 {
+        font-size: 2.3em;
+        /* border: 2px solid white; */
+        margin-top: 75px;
+
+    }
+
+    .banner-info5 .button5 {
+        margin-left: 16%;
+
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .swiper-slide .banner-pics5  {
+        border-radius:0px;
+        height: 20em;
+        width: 100%;
+    }
+
+
+     .banner-pics5::after {
+        border-radius:0px;
+        height: 20em;
+    }
+
+
+    .main-pics5 {
+        border-radius: 0px;
+    }
+
+    .swiper-slide {
+        margin-top: -50px;
+    }
+
+
+    .banner-pics5 .banner-info5 {
+        width: 100%;
+        margin-left: 0%;
+        height: 7em;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border: 0.1px solid transparent;
+        margin-top: 13em;
+        display: flex;
+        border-radius: 0px;
+        position: relative;
+    }
+
+
+
+    .banner-info5 .main-name5 {
+        margin-top: 0%;
+        margin-left: 35%;
+        font-size: 2.5em;
+    }
+
+    .banner-info5 .button5 {
+        position: absolute;
+        left: 27%;
+        top: 18%;
+        padding: 5px;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .banner-info5 .button5 {
+        position: absolute;
+        left: 30%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info5 .main-name5 {
+        margin-left: 35%;
+        margin-top: 0px;
+    }
+}
+
+
+
+@media screen and (max-width:595px) {
+        .banner-info5 .button5 {
+            position: absolute;
+            left: 20%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+        .banner-info5 .main-name5 {
+            margin-left: 20%;
+        }
+    }
+    
+
+    @media screen and (max-width:510px) {
+
+        .banner-info5 .button5 {
+            position: absolute;
+            left: 5%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+        .banner-info5 .main-name5 {
+            margin-left: 5%;
+        }
+    
+    }
+    
+
+
+    @media screen and (max-width:480px) {
+        .swiper-slide .banner-pics5 {
+            margin-top: 70px;
+            box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+        }
+}
+
+@media screen and (max-width:405px) {
+    .banner-info5 .main-name5 {
+        font-size: 9.5vw;
+        margin-top: 2%;
+    }
+
+}
+
+
+@media screen and (max-width:320px) {
+    .banner-info5 .main-name5 {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+
+    
+    .banner-info5 .button5 {
+            left: 5%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+}
+
+
+
+
+
+/* 6ht slide */
+@media screen and (max-width: 1405px) {
+
+    .main-pics6 {
+        width: 29em;
+        height: 16rem;
+        
+    }
+}
+
+@media screen and (max-width:1321px) {
+    .main-pics6 {
+        width: 25em;
+        height: 13rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .main-pics6 {
+        width: 20em;
+        height: 11rem;
+        margin-left: 20%; 
+        
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .main-pics6 {
+        width: 20rem;
+        height: 35%;
+        margin-left: 15%; 
+        
+    }
+
+    
+}
+
+@media screen and (max-width:1175px) {
+    .main-pics6 {
+        display: none;
+    }
+
+    .swiper-slide .banner-pics6 {
+        width: 80%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+    .banner-pics6::after {
+        width: 100%;
+        height: 400px;
+        filter: blur(0);
+    }
+
+    .banner-pics6 .banner-info6 {
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: 0px;
+        margin-left: -75%;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        border: 0.1px solid white;
+    }
+
+    .banner-info6 .main-name6 {
+        font-size: 2.4em;
+        /* border: 2px solid white; */
+        margin-top: 75px;
+
+    }
+
+    .banner-info6 .button6 {
+        margin-left: 25%;
+
+    }
+
+    .banner-info6 .titles6 {
+        display: none;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:995px) {
+    .banner-info6 .main-name6 {
+        font-size: 2em;
+        margin-top: 75px;
+
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .banner-info6 .main-name6 {
+        font-size: 1.7em;
+
+        margin-top: 75px;
+
+    }
+
+    .banner-info6 .button6 {
+        margin-left: 16%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .swiper-slide .banner-pics6  {
+        border-radius:0px;
+        height: 20em;
+        width: 100%;
+    }
+
+
+     .banner-pics6::after {
+        border-radius:0px;
+        height: 20em;
+    }
+
+
+    .main-pics6 {
+        border-radius: 0px;
+    }
+
+    .swiper-slide {
+        margin-top: -50px;
+    }
+
+
+    .banner-pics6 .banner-info6 {
+        width: 100%;
+        margin-left: 0%;
+        height: 7em;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(8px);
+        border: 0.1px solid transparent;
+        margin-top: 13em;
+        display: flex;
+        border-radius: 0px;
+    }
+
+
+
+    .banner-info6 .main-name6 {
+        margin-top: 0%;
+        margin-left: 25%;
+        -webkit-text-stroke: 1px rgb(245, 101, 82);
+        font-size: 2.5em;
+    }
+
+    .banner-info6 .button6 {
+        position: absolute;
+        left: 27%;
+        top: 18%;
+        padding: 5px;
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .banner-info6 .button6 {
+        position: absolute;
+        left: 25%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info6 .main-name6 {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-info6 .button6 {
+        left: 20%;
+    }
+    .banner-info6 .main-name6 {
+        margin-left: 15%;
+    } 
+}
+
+
+@media screen and (max-width:576px){
+    .banner-info6 .main-name6 {
+        margin-left: 20%;
+        font-size: 2em;
+        margin-top: 5px;
+    } 
+}
+
+@media screen and (max-width:510px) {
+    .banner-info6 .button6 {
+        position: absolute;
+        left: 10%;
+        top: 20px;
+        padding: 0.4rem;
+    }
+    .banner-info6 .main-name6 {
+        margin-left: 5%;
+    }
+}
+
+    @media screen and (max-width:480px) {
+        .swiper-slide .banner-pics6 {
+            margin-top: 70px;
+            box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+        }
+}
+
+@media screen and (max-width:405px) {
+    .banner-info6 .main-name6 {
+      
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .banner-info6 .main-name6 {
+        font-size: 27px;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    
+    .banner-info6 .button6 {
+            position: absolute;
+            left: 10%;
+            top: 20px;
+            padding: 0.4rem;
+        }
+}
+
+
+
