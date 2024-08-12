@@ -922,15 +922,9 @@ html, body {
             /* width:150px; */
             width: 100%;
             height: 14em;
-            max-height: 170px;
-            background-color: pink;
+            max-height: 190px;
         }
     
-    
-        .slides a img {
-            height: 14em;
-            width: 100%;
-        }
 
         .swipe-for-more {
             position: absolute;
