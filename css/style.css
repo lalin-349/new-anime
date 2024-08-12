@@ -794,11 +794,9 @@ html, body {
     }
 
    .slides {
-        /* width:150px; */
         width: 100%;
         height: 16em;
         max-height: 250px;
-        background-color: pink;
     }
 
 
@@ -808,7 +806,6 @@ html, body {
     }
 
     .swiper-pagination {
-        /* border: 1px solid red; */
         top:24%;
     
 
@@ -1437,13 +1434,9 @@ html, body {
 }
 
 .box2 {
-    width:70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: calc(100% - 30%);
     position: absolute;
     top: 100px;
-    left: 17%;
 }
 
 .box2 video {
@@ -1481,13 +1474,9 @@ html, body {
 @media screen and (max-width:540px) {
 
     .box2 {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: calc(100% - 30%);
         position: absolute;
         top: 55px;
-        left: 17%;
         margin: 0 auto;
         overflow: hidden;
         height: 240px;
