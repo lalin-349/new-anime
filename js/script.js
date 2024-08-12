@@ -13,8 +13,8 @@ var slider1 = new Swiper ('.slider1', {
       clickable: true,
     },
     autoplay: {
-      delay: 16000000000000,
-      // delay: 1800,
+      // delay: 16000000000000,
+      delay: 1800,
     }
   });
 
