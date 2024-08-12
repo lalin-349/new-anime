@@ -855,6 +855,11 @@ html, body {
             width: 100%;
         }
 
+        .swipe-for-more {
+            position: absolute;
+            top: calc(100% - 20%);
+            left: calc(100% - 60%);
+        }
         
     }
 
@@ -887,6 +892,13 @@ html, body {
         .symbols .calender p {
             font-size: 0.9em;
         }
+
+        .swipe-for-more {
+            position: absolute;
+            top: calc(100% - 20%);
+            left: calc(100% - 66%);
+        }
+        
     }
 
 
@@ -919,6 +931,13 @@ html, body {
             height: 14em;
             width: 100%;
         }
+
+        .swipe-for-more {
+            position: absolute;
+            top: calc(100% - 20%);
+            left: calc(100% - 69%);
+        }
+        
     
 
 }
@@ -1122,22 +1141,11 @@ html, body {
     font-weight:600;
 }
 
+.swipe-for-more {
+    display: none;
+}
 
-@media screen and (max-width:620px) {
-    .slides {
-        width:200px;
-        height: 70%;
-        margin-top: 20px;
-    }
-}
-    
-@media screen and (max-width:511px) {
-    .slides {
-        width:100%;
-        height: auto;
-        margin-top: 20px;
-    }
-}
+
 
 @media screen and (max-width:1174px) {
     .modal-swiper-button-prev {
@@ -1163,11 +1171,18 @@ html, body {
         height: 90px;
         left: calc(100% - 45px);
     }
-
+    
     .slides {
         margin-top: 50px;
+        transition: none;
     }
 
+    
+
+    .slides:hover{
+        transform: none;
+    }
+    
     .recom {
         width: 100%;
         text-align: center;
@@ -1186,6 +1201,13 @@ html, body {
 }
 
 
+@media screen and (max-width:620px) {
+    .slides {
+        width:200px;
+        height: 70%;
+        margin-top: 20px;
+    }
+}
 @media screen and (max-width:567px) {
 
     .modal-swiper-button-next {
@@ -1203,7 +1225,26 @@ html, body {
     .slides {
         border-radius: 0px;
     }  
+
+    .swipe-for-more {
+        display: flex;
+        justify-content: center;
+            color: white;
+            font-family: "Jersey 20";
+            font-size: 20px;
+            margin-top: -45px;
+        }
+        
 }
+    
+@media screen and (max-width:511px) {
+    .slides {
+        width:100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (max-width:466px) {
     .recom {
@@ -1260,6 +1301,7 @@ html, body {
     border-radius: 60px;
 }
 
+
     
 }
 
@@ -1275,6 +1317,7 @@ html, body {
     }
 
 }
+
 
 
 
@@ -1382,7 +1425,7 @@ html, body {
         border: 2px solid rgb(55, 255, 218);
         height: 90vh;
         min-height: 590px;
-        margin: 50px 0px 50px 20px; 
+        margin: 50px 0px; 
     }
 
 .box1 p {
