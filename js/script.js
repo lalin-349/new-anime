@@ -14,7 +14,7 @@ var slider1 = new Swiper ('.slider1', {
     },
     autoplay: {
       // delay: 16000000000000,
-      delay: 1600,
+      delay: 1800,
     }
   });
 
@@ -22,9 +22,12 @@ var slider1 = new Swiper ('.slider1', {
 
     var slider2 = new Swiper(".slider2", {
       slidesPerView: 2,
-      slidesPerGroup: 2,
+      slidesPerGroup: 1,
       spaceBetween: 20,
       loop: true,
+      autoplay: {
+        delay: 2000,
+      },
       pagination: {
         el: ".modal-swiper-pagination",
         clickable: true,
