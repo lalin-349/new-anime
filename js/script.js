@@ -35,18 +35,22 @@ var slider1 = new Swiper ('.slider1', {
 
       breakpoints: {
         0: {
-          slidesPerView: 2
+          slidesPerView: 3,
+          spaceBetween: 5,
         },
         620: {
-          slidesPerView: 3
+          slidesPerView: 3,
+          spaceBetween: 20,
         },
 
         738: {
-          slidesPerView: 3
+          slidesPerView: 3,
+          spaceBetween: 20,
         },
 
         830: {
-          slidesPerView: 4
+          slidesPerView: 4,
+          spaceBetween: 20,
         },
 
         // 940: {
@@ -54,11 +58,13 @@ var slider1 = new Swiper ('.slider1', {
         // },
 
         1024: {
-          slidesPerView: 5
+          slidesPerView: 5,
+          spaceBetween: 20,
         },
          
         1229: {
-          slidesPerView: 6
+          slidesPerView: 6,
+          spaceBetween: 20,
         }
       }
     });
