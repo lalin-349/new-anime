@@ -844,14 +844,12 @@ html, body {
         .slides {
             /* width:150px; */
             width: 100%;
-            height: 14em;
-            max-height: 190px;
-            background-color: pink;
+            height: 100%;
+            max-height: 230px;
         }
     
     
         .slides a img {
-            height: 14em;
             width: 100%;
         }
 
@@ -1168,13 +1166,14 @@ html, body {
     
     .slides {
         margin-top: 50px;
-        transition: none;
+        transition: all 0s ease 0s;
     }
 
     
 
     .slides:hover{
-        transform: none;
+        transform: scale(0);
+        transition: all 0s ease 0s;
     }
     
     .recom {
