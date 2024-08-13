@@ -79,8 +79,14 @@ var slider1 = new Swiper ('.slider1', {
   dots.onclick = function() {
      const navBar = document.querySelector(".nav_phone");
       navBar.classList.toggle("active");
+    const logo = document.querySelector(".logo a");
+      logo.classList.toggle("active");
+    const dots = document.querySelector(".dots");
+      dots.classList.toggle("active");
+
   }
 
 
+  
 
 

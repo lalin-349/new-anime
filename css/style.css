@@ -153,8 +153,13 @@ html, body {
         z-index: 23;
     }
 
+    .logo a.active {
+        position: fixed;
+    }
+
     .main-head {
         padding: 0;
+        
     }
 
     .main-head .task_content ul{
@@ -167,13 +172,6 @@ html, body {
        display: none;
     }
 
-    .main-head .task_content2 ul li {
-        justify-content: left;
-    }
-
-    .main-head .task_content ul li {
-        justify-content: right;
-    }
 
     /* .task_content ul {
         flex-direction: column;
@@ -215,7 +213,12 @@ html, body {
         cursor:pointer;  
         margin-top: 22px;
         z-index: 23; 
-        
+        left: 90%;
+    }
+
+    .dots.active {
+        position: fixed;
+        left: 93.2%;
     }
 
     .dots .line {
@@ -223,8 +226,6 @@ html, body {
         height: 2px;
         background-color: white;
         margin: 6px 0;
-        
-        transition: all 1s ease 0s;
     }
 
   
@@ -242,6 +243,8 @@ html, body {
         display: block;
         height: 700px;
         margin-top: -700px;
+        overflow-y: hidden;
+        position: fixed;
     }
 
     .nav_phone.active { /*important*/
