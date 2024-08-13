@@ -1522,14 +1522,10 @@ html, body {
 }
 
 .movies-cards {
-    display: flex;
-    flex-wrap: wrap;
     margin: 0 auto;
     width: calc(100% - 10%);
     height: auto;
-    margin-top: 30px;
-    /* background-color: #2f00ff; */
-    justify-content: space-evenly;    
+    margin-top: 30px; 
 }
 
 .latest-movies {
@@ -1542,6 +1538,14 @@ html, body {
     align-items: center;
     margin-bottom: 30px;
 }
+
+.the-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  /*very important*/
+    gap: 10px;
+}
+
+
 
 
 .latest-movies img {
@@ -1559,6 +1563,7 @@ html, body {
 .movies-box {
     width: 200px;
     height: 400px;
+    margin: 0 auto;
 }
 
 .movies-pic {
@@ -1592,18 +1597,32 @@ html, body {
     margin-bottom: 8px;
 }
 
+@media screen and (max-width:922px) {
+    .the-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(197px, 1fr));  /*very important*/
+        gap: 10px;
+    }
+}
 
-@media screen and (max-width:1111px) {
+@media screen and (max-width:678px) {
+    .movies-cards {
+        width: calc(100% - 0%);
+    }
     
+}
 
 
-.movies-cards {
-    width: 100%;
-    justify-content:space-around;  
-}
-}
+
 
 @media screen and (max-width:414px) {
+
+
+    .the-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));  /*very important*/
+        gap: 1px;
+    }
 
     .latest-movies {
         margin-bottom: 100px;
@@ -1726,6 +1745,12 @@ html, body {
     height: 40px; 
     margin-left: 60px;  
 }
+}
+
+@media screen and (max-width:350px) {
+    .footer-box1 img:nth-child(3) {
+        margin-left: 30px;  
+    }
 }
 
 
