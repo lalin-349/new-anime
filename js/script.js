@@ -73,11 +73,14 @@ var slider1 = new Swiper ('.slider1', {
       }
     });
 
-    const dots = document.querySelector(".dots");
-    dots.onclick = function() {
-    const navphone =document.querySelector(".nav_phone")
-  .navphone.classList.toggle("active");
-}
+
+
+  const dots = document.querySelector(".dots");
+  dots.onclick = function() {
+     const navBar = document.querySelector(".nav_phone");
+      navBar.classList.toggle("active");
+  }
+
 
 
 
