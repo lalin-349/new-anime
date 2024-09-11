@@ -1621,7 +1621,7 @@ html, body {
     .the-cards {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));  /*very important*/
-        gap: 1px;
+        gap: 3px;
     }
 
     .latest-movies {
@@ -1633,6 +1633,7 @@ html, body {
         height: 400px;
         /* background-color: #00ffe1; */
         margin-top: -60px;
+
     }
     
     .movies-pic {
