@@ -1392,7 +1392,7 @@ html, body {
     .box1 {
         width: 40%;
         border: 2px solid rgb(55, 255, 218);
-        height: 60vh;
+        /* height: 450px; */
         min-height: 450px;
         margin: 50px 0px 50px 20px; 
     }
@@ -1425,7 +1425,7 @@ html, body {
     .box1 {
         width: 80%;
         border: 2px solid rgb(55, 255, 218);
-        height: 90vh;
+        /* height: 90vh; */
         min-height: 590px;
         margin: 50px 0px; 
     }
@@ -1464,7 +1464,7 @@ html, body {
 
 @media screen and (max-width:729px) {
     .box1 {
-        height: 70vh;
+        /* height: 70vh; */
         min-height: 550px;
     }
 }
@@ -1472,7 +1472,7 @@ html, body {
 
 @media screen and (max-width:630px) {
     .box1 {
-        height: 70vh;
+        /* height: 70vh; */
         min-height: 420px;
     }
 }
@@ -1496,7 +1496,7 @@ html, body {
     }
 
     .box1 {
-        height: 60vh;
+        /* height: 60vh; */
         padding-bottom: 0px;
     }
 }
