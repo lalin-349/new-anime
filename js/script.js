@@ -19,7 +19,6 @@ var slider1 = new Swiper ('.slider1', {
   });
 
 
-
     var slider2 = new Swiper(".slider2", {
       slidesPerView: 2,
       slidesPerGroup: 1,
