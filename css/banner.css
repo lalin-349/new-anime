@@ -1725,6 +1725,9 @@
         top: 20px;
         padding: 0.4rem;
     }
+    .banner-info6 .main-name6 { 
+        margin-left: -10%;
+    }
 }
 
     @media screen and (max-width:480px) {
@@ -1736,7 +1739,7 @@
 
 @media screen and (max-width:405px) {
     .banner-info6 .main-name6 {
-
+        margin-left: -3%;
         margin-top: 2%;
     }
 
