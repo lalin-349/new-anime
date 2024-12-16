@@ -1025,6 +1025,7 @@ html, body {
 
 .navigation-contain-box {
     position: relative;
+
 }
 
 
@@ -1092,7 +1093,6 @@ html, body {
     margin-bottom: 15px;
     transition: all 1s ease 0s;
     height: 17em;
-
 }
 
 .slides:hover{
@@ -1147,6 +1147,13 @@ html, body {
     display: none;
 }
 
+@media screen and (min-width: 1421px) {
+    .slides {
+        height: 19em;
+    }
+    
+}
+
 
 
 @media screen and (max-width:1174px) {
@@ -1176,6 +1183,7 @@ html, body {
     
     .slides {
         margin-top: 50px;
+
         transition: all 0s ease 0s;
     }
 
@@ -1339,8 +1347,7 @@ html, body {
 .box1 {
     width: 40%;
     border: 2px solid rgb(55, 255, 218);
-    min-height: 500px;
-    height: 69vh;
+    height: 39em;
     margin: 50px 0px 50px 20px; 
     color: white;
     text-align: center;
@@ -1394,7 +1401,6 @@ html, body {
     .box1 {
         width: 40%;
         border: 2px solid rgb(55, 255, 218);
-        height: 60vh;
         min-height: 450px;
         margin: 50px 0px 50px 20px; 
     }
