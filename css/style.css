@@ -30,7 +30,6 @@ html, body {
     display: flex; 
     justify-content: center;
     height: auto;  
-    /* background-color: aqua; */
 }
 
  .main-head {
@@ -66,6 +65,8 @@ html, body {
     text-align: center;
     align-items: center;
     margin-right: -70px;
+    
+    
 }
 
 .task_content2 ul li { 
@@ -88,6 +89,7 @@ html, body {
     padding: 5px 10px 5px 10px;
     border-radius: 8px;
     background-color: black;
+
 }
 
 .task_content ul li a:hover{ 
