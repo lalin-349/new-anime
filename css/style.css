@@ -486,9 +486,10 @@ html, body {
     font-size: medium;
     background-color: rgb(40, 201, 171);
     font-weight: 600;
-
 }
-
+.button-link{
+    text-decoration: none;
+}
 .banner-info .button:hover {
     background-color: rgb(55, 255, 218);
 
