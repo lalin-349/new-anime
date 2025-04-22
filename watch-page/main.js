@@ -5,7 +5,7 @@ const playOne = () =>{
     gb.src = gg.getAttribute("src");
     gb.load();
     gb.play();
-    const pic = document.querySelector(".banner-image").src = "/img2/image-1.jpg";
+    const pic = document.querySelector(".banner-image").src = "../img2/image-1.jpg";
     const title = document.querySelector(".title").textContent = "One piece";
     const description = "The One Piece anime, adapted from Eiichiro Oda's manga, is a legendary tale of adventure, friendship, and dreams. It follows Monkey D. Luffy and his crew, the Straw Hat Pirates, as they sail the Grand Line in search of the mythical treasure known as the One Piece, aiming to make Luffy the King of the Pirates. Renowned for its world-building, humor, and emotional depth, the anime has been airing since 1999 and boasts over 1,000 episodes. Its captivating arcs and unforgettable characters have made it a cornerstone of the anime world.";
     const des = document.querySelector(".des").textContent = description;
