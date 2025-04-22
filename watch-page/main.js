@@ -11,9 +11,9 @@ const playOne = () =>{
     const des = document.querySelector(".des").textContent = description;
 }
 document.querySelector(".btn1 img").addEventListener("click",()=>{ playOne();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 document.querySelector(".p1 p").addEventListener("click",()=>{ playOne();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 
 const playTwo = () =>{
     const gg = document.querySelector(".btn2");
@@ -27,9 +27,9 @@ const playTwo = () =>{
     const des = document.querySelector(".des").textContent = description;
  }
 document.querySelector(".btn2 img").addEventListener("click",()=> { playTwo();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 document.querySelector(".p2 p").addEventListener("click",()=> { playTwo();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 
 const playThree = () =>{
     const gg = document.querySelector(".btn3");
@@ -43,9 +43,9 @@ const playThree = () =>{
     const des = document.querySelector(".des").textContent = description;
 }
 document.querySelector(".btn3 img").addEventListener("click",()=> { playThree();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 document.querySelector(".p3 p").addEventListener("click",()=> { playThree();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 
 const playFour = () =>{
     const gg = document.querySelector(".btn4");
@@ -59,9 +59,9 @@ const playFour = () =>{
     const des = document.querySelector(".des").textContent = description;
 }
 document.querySelector(".btn4 img").addEventListener("click",()=> { playFour();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 document.querySelector(".p4 p").addEventListener("click",()=> { playFour();
-    window.scrollBy(0,-1000);});
+    window.scrollBy(0,-10000);});
 
 const playFive = () =>{
     const gg = document.querySelector(".btn5");
@@ -73,9 +73,9 @@ const playFive = () =>{
     const title = document.querySelector(".title").textContent = "A edit";
 }
 document.querySelector(".btn5 img").addEventListener("click",()=> { playFive();
-    window.scrollBy(0,-10000);});
+    window.scrollBy(0,-100000);});
 document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
-    window.scrollBy(0,-10000);});
+    window.scrollBy(0,-100000);});
 
     const playSix = () =>{
         const gg = document.querySelector(".btn6");
@@ -89,9 +89,9 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
         const des = document.querySelector(".des").textContent = description;
     }
     document.querySelector(".btn6 img").addEventListener("click",()=> { playSix();
-        window.scrollBy(0,-1000);});
+        window.scrollBy(0,-10000);});
     document.querySelector(".p6 p").addEventListener("click",()=> { playSix();
-        window.scrollBy(0,-1000);});
+        window.scrollBy(0,-10000);});
     
     const playSeven = () =>{
         const gg = document.querySelector(".btn7");
@@ -105,9 +105,9 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
         const des = document.querySelector(".des").textContent = description;
     }
     document.querySelector(".btn7 img").addEventListener("click",()=> { playSeven();
-        window.scrollBy(0,-1000);});
+        window.scrollBy(0,-10000);});
     document.querySelector(".p7 p").addEventListener("click",()=> { playSeven();
-        window.scrollBy(0,-1000);});
+        window.scrollBy(0,-10000);});
 
     const playEight = () =>{
         const gg = document.querySelector(".btn8");
@@ -121,10 +121,10 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
         const des = document.querySelector(".des").textContent = description;
     }
     document.querySelector(".btn8 img").addEventListener("click",()=> { playEight();
-        window.scrollBy(0,-1000);});
+        window.scrollBy(0,-10000);});
 
     document.querySelector(".p8 p").addEventListener("click",()=> { playEight();
-        window.scrollBy(0,-1000);});
+        window.scrollBy(0,-10000);});
     
         const playNine = () =>{
             const gg = document.querySelector(".btn9");
@@ -138,9 +138,9 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn9 img").addEventListener("click",()=> { playNine();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
         document.querySelector(".p9 p").addEventListener("click",()=> { playNine();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
 
         const playTen= () =>{
             const gg = document.querySelector(".btn10");
@@ -154,9 +154,9 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn10 img").addEventListener("click",()=> { playTen();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
         document.querySelector(".p10 p").addEventListener("click",()=> { playTen();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
 
         const playEleven= () =>{
             const gg = document.querySelector(".btn11");
@@ -170,9 +170,9 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn11 img").addEventListener("click",()=> { playEleven();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
         document.querySelector(".p11 p").addEventListener("click",()=> { playEleven();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
 
         const playTwelve= () =>{
             const gg = document.querySelector(".btn12");
@@ -186,6 +186,6 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn12 img").addEventListener("click",()=> { playTwelve();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
         document.querySelector(".p12 p").addEventListener("click",()=> { playTwelve();
-            window.scrollBy(0,-1000);});
+            window.scrollBy(0,-10000);});
