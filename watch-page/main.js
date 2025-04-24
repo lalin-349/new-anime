@@ -189,3 +189,19 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             window.scrollBy(0,-10000);});
         document.querySelector(".p12 p").addEventListener("click",()=> { playTwelve();
             window.scrollBy(0,-10000);});
+
+const playThirteen= () =>{
+            const gg = document.querySelector(".btn13");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/vivy.jpg";
+            const title = document.querySelector(".title").textContent = "Vivy";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn13 img").addEventListener("click",()=> { playTwelve();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p13 p").addEventListener("click",()=> { playTwelve();
+            window.scrollBy(0,-10000);});
