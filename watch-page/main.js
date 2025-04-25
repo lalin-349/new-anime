@@ -196,12 +196,156 @@ const playThirteen= () =>{
             gb.src = gg.getAttribute("src");
             gb.load();
             gb.play();
-            const pic = document.querySelector(".banner-image").src = "../img2/vivy.jpg";
-            const title = document.querySelector(".title").textContent = "Vivy";
+            const pic = document.querySelector(".banner-image").src = "../img2/violet.jpg" 
+            const title = document.querySelector(".title").textContent = "Violet Evergarden";
             const description = "";
             const des = document.querySelector(".des").textContent = description;
         }
-        document.querySelector(".btn13 img").addEventListener("click",()=> { playTwelve();
+        document.querySelector(".btn13 img").addEventListener("click",()=> { playThirteen();
             window.scrollBy(0,-10000);});
-        document.querySelector(".p13 p").addEventListener("click",()=> { playTwelve();
+        document.querySelector(".p13 p").addEventListener("click",()=> { playThirteen();
+            window.scrollBy(0,-10000);});
+
+const playForteen = () =>{
+            const gg = document.querySelector(".btn14");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/detective.jpg";
+            const title = document.querySelector(".title").textContent = "The Detective is already Dead";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn14 img").addEventListener("click",()=> { playForteen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p14 p").addEventListener("click",()=> { playForteen();
+            window.scrollBy(0,-10000);});
+
+const playFifteen= () =>{
+            const gg = document.querySelector(".btn15");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/diary.jpg";
+            const title = document.querySelector(".title").textContent = "The Apothecary Diaries";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn15 img").addEventListener("click",()=> { playFifteen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p15 p").addEventListener("click",()=> { playFifteen();
+            window.scrollBy(0,-10000);});
+
+const playSixteen= () =>{
+            const gg = document.querySelector(".btn16");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/frieren.jpg";
+            const title = document.querySelector(".title").textContent = "Frieren: Beyond Journey's End";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn16 img").addEventListener("click",()=> { playSixteen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p16 p").addEventListener("click",()=> { playSixteen();
+            window.scrollBy(0,-10000);});
+
+const playSeventeen= () =>{
+            const gg = document.querySelector(".btn17");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/oshi.jpg";
+            const title = document.querySelector(".title").textContent = "Oshi no ko";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn17 img").addEventListener("click",()=> { playSeventeen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p17 p").addEventListener("click",()=> { playSeventeen();
+            window.scrollBy(0,-10000);});
+
+const playEightteen= () =>{
+            const gg = document.querySelector(".btn18");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/yona.jpg";
+            const title = document.querySelector(".title").textContent = "Yona of the Dawn";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn18 img").addEventListener("click",()=> { playEightteen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p18 p").addEventListener("click",()=> { playEightteen();
+            window.scrollBy(0,-10000);});
+
+const playNineteen= () =>{
+            const gg = document.querySelector(".btn19");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/food.jpg";
+            const title = document.querySelector(".title").textContent = "Food wars";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn19 img").addEventListener("click",()=> { playNineteen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p19 p").addEventListener("click",()=> { playNineteen();
+            window.scrollBy(0,-10000);});
+
+const playTwenteen= () =>{
+            const gg = document.querySelector(".btn20");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/dororo.jpg";
+            const title = document.querySelector(".title").textContent = "Dororo";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn20 img").addEventListener("click",()=> { playTwenteen();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p20 p").addEventListener("click",()=> { playTwenteen();
+            window.scrollBy(0,-10000);});
+
+const playTwentyone= () =>{
+            const gg = document.querySelector(".btn21");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/job.jpg";
+            const title = document.querySelector(".title").textContent = "Jobless Reincarnation";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn21 img").addEventListener("click",()=> { playTwentyone();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p21 p").addEventListener("click",()=> { playTwentyone();
+            window.scrollBy(0,-10000);});
+
+const playTwentytwo= () =>{
+            const gg = document.querySelector(".btn22");
+            const gb = document.querySelector(".video-tag");
+            gb.src = gg.getAttribute("src");
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/kong.jpg";
+            const title = document.querySelector(".title").textContent = "Ya Boy Kongming!";
+            const description = "";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        document.querySelector(".btn22 img").addEventListener("click",()=> { playTwentytwo();
+            window.scrollBy(0,-10000);});
+        document.querySelector(".p22 p").addEventListener("click",()=> { playTwentytwo();
             window.scrollBy(0,-10000);});
