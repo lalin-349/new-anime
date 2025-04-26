@@ -1,3 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x:hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color:rgb(34, 40, 49);
+    
+}
 html {
     scroll-behavior: smooth;
   }
@@ -86,4 +99,53 @@ html {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+
+@media screen and (max-width:1170px) {
+    .banner-image{
+        width:160px;
+        border-radius: 10px;
+        height: 230px;
+        margin-bottom: 40px;
+    }
+    .pic-title {
+    display: block;
+   
+}
+.title{
+    margin-left: 0px;
+}
+.info{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:900px){
+    .video-tag{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .main-banner{
+        margin-top: 25px;
+        display: block;
+
+        margin-bottom: 300px;
+    }
+    .info{
+        
+     
+    }
+    .box{
+        display: flex;
+    }
+    .pic-title {
+        display: flex;
+        
+    }
+    .banner-image {
+        display: flex;
+    }
+    
 }

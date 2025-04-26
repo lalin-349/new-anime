@@ -70,7 +70,9 @@ const playFive = () =>{
     gb.load();
     gb.play();
     const pic = document.querySelector(".banner-image").src = "../img2/tomo.jpg";
-    const title = document.querySelector(".title").textContent = "A edit";
+    const title = document.querySelector(".title").textContent = "Tomo chan is a girl";
+    const description = "Tomo-chan Is a Girl! is a romantic comedy anime that follows Tomo Aizawa, a tomboy who has been in love with her childhood friend, Junichiro Kubota, for years. Unfortunately, Junichiro only sees her as one of the guys, which leads to hilarious and heartfelt moments as Tomo tries to make him see her as a girl. The story explores their friendship, Tomo's attempts to express her feelings, and the dynamics of their quirky group of friends.";
+        const des = document.querySelector(".des").textContent = description;
 }
 document.querySelector(".btn5 img").addEventListener("click",()=> { playFive();
     window.scrollBy(0,-100000);});
@@ -134,7 +136,7 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/undead.jpg";
             const title = document.querySelector(".title").textContent = "Undead unlock";
-            const description = "";
+            const description = "Undead Unluck is a fascinating anime that blends action, comedy, and supernatural elements. It follows Fuuko Izumo, a girl cursed with unluck, which brings calamity to anyone she touches. Her life takes a turn when she meets Andy, an immortal man seeking the ultimate death. Together, they navigate a world of mysterious powers, secret organizations, and thrilling adventures. It's a unique mix of humor and heartfelt moments!";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn9 img").addEventListener("click",()=> { playNine();
@@ -150,7 +152,7 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/dark.jpg";
             const title = document.querySelector(".title").textContent = "Dark gathering";
-            const description = "";
+            const description = "Dark Gathering is a supernatural horror anime that follows Keitarou Gentouga, a college student with a strong spiritual presence that attracts spirits. After a traumatic encounter, he becomes cursed and tries to live a normal life. He becomes a private tutor for Yayoi Houzuki, a young girl with unique abilities to see spirits. Yayoi is on a mission to find the spirit that abducted her mother's soul, and she ropes Keitarou into her dangerous quest to collect vengeful spirits. The story combines eerie encounters with emotional depth, creating a chilling yet captivating experience.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn10 img").addEventListener("click",()=> { playTen();
@@ -166,7 +168,7 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/mill.jpg";
             const title = document.querySelector(".title").textContent = "The millionaire detective";
-            const description = "";
+            const description = "The Millionaire Detective - Balance: Unlimited is a stylish anime that combines mystery, comedy, and action. It follows Daisuke Kambe, a detective with immense wealth, who uses his money and cutting-edge gadgets to solve crimes in unconventional ways. He's paired with Haru Katou, a detective who values justice and despises Daisuke's reliance on money. Their contrasting personalities create tension and humor as they tackle complex cases together. The series explores themes of morality, teamwork, and the influence of wealth";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn11 img").addEventListener("click",()=> { playEleven();
@@ -182,7 +184,7 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/vivy.jpg";
             const title = document.querySelector(".title").textContent = "Vivy";
-            const description = "";
+            const description = "Vivy: Fluorite Eye's Song is a sci-fi drama anime that follows Vivy, the first autonomous AI, whose mission is to spread happiness through her singing. Her peaceful existence at the NiaLand theme park is disrupted when Matsumoto, an AI from 100 years in the future, arrives with a dire warning about a war between humans and AI. Together, they embark on a century-long journey to prevent this catastrophic future, tackling challenges and unraveling mysteries along the way.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn12 img").addEventListener("click",()=> { playTwelve();
@@ -198,7 +200,7 @@ const playThirteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/violet.jpg" 
             const title = document.querySelector(".title").textContent = "Violet Evergarden";
-            const description = "";
+            const description = "Violet Evergarden is a beautifully crafted anime that explores themes of love, loss, and self-discovery. It follows Violet, a former soldier who becomes an Auto Memory Doll—a ghostwriter who helps people express their emotions through letters. As she takes on various assignments, Violet begins to understand human feelings and confronts her own past, including the meaning of the words I love you, spoken by someone dear to her during the war. The series is visually stunning and emotionally profound, leaving a lasting impression.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn13 img").addEventListener("click",()=> { playThirteen();
@@ -230,7 +232,7 @@ const playFifteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/diary.jpg";
             const title = document.querySelector(".title").textContent = "The Apothecary Diaries";
-            const description = "";
+            const description = "The Apothecary Diaries is a captivating anime set in a fictional version of Imperial China. It follows Maomao, a young apothecary who is kidnapped and sold to the emperor's palace as a servant. Despite her lowly position, her sharp intellect and extensive knowledge of medicine come to light when she solves mysterious illnesses affecting the imperial family. Her talents catch the attention of Jinshi, a high-ranking official, leading her to navigate palace intrigues and unravel medical mysteries. The series blends drama, mystery, and historical elements, creating a rich and engaging narrative.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn15 img").addEventListener("click",()=> { playFifteen();
@@ -246,7 +248,7 @@ const playSixteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/frieren.jpg";
             const title = document.querySelector(".title").textContent = "Frieren: Beyond Journey's End";
-            const description = "";
+            const description = "Frieren: Beyond Journey's End is a poignant anime that delves into themes of mortality, memory, and the passage of time. It follows Frieren, an elven mage who outlives her companions after their victory over the Demon King. As she reflects on her past adventures, Frieren embarks on a new journey to understand humanity and forge deeper connections. The story beautifully balances moments of nostalgia with the promise of new beginnings, offering a heartfelt exploration of life and legacy";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn16 img").addEventListener("click",()=> { playSixteen();
@@ -262,7 +264,7 @@ const playSeventeen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/oshi.jpg";
             const title = document.querySelector(".title").textContent = "Oshi no ko";
-            const description = "";
+            const description = "Oshi no Ko is a gripping anime that blends drama, mystery, and the complexities of the entertainment industry. The story revolves around Ai Hoshino, a beloved pop idol, and her unexpected connection with Gorou Amemiya, a gynecologist who becomes entwined in her life. After a series of dramatic events, the narrative shifts to Ai's children, Aquamarine and Ruby, as they navigate the challenges of fame, family, and uncovering hidden truths. The anime offers a deep dive into the darker side of showbiz while exploring themes of ambition, identity, and resilience.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn17 img").addEventListener("click",()=> { playSeventeen();
@@ -278,7 +280,7 @@ const playEightteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/yona.jpg";
             const title = document.querySelector(".title").textContent = "Yona of the Dawn";
-            const description = "";
+            const description = "Yona of the Dawn is an adventure fantasy anime that follows Princess Yona, who lives a sheltered life in the Kingdom of Kouka. Her world is turned upside down when her father is betrayed and killed, forcing her to flee the palace with her loyal bodyguard, Hak. As she journeys through the kingdom, Yona discovers the harsh realities of the world and sets out to reclaim her throne. Along the way, she learns of an ancient legend involving four dragon warriors, who may hold the key to her destiny. The story is filled with themes of growth, resilience, and the pursuit of justice";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn18 img").addEventListener("click",()=> { playEightteen();
@@ -294,7 +296,7 @@ const playNineteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/food.jpg";
             const title = document.querySelector(".title").textContent = "Food wars";
-            const description = "";
+            const description = "Food Wars! Shokugeki no Soma is a culinary-themed anime that combines intense cooking battles, humor, and character growth. It follows Soma Yukihira, a talented young chef who enrolls in Totsuki Culinary Academy, an elite school known for its high standards and fierce cooking competitions. Soma faces off against skilled rivals in shokugeki (food wars), where chefs put their pride and skills on the line. The series showcases creative dishes, dramatic showdowns, and the journey of aspiring chefs striving to reach the top.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn19 img").addEventListener("click",()=> { playNineteen();
@@ -310,7 +312,7 @@ const playTwenteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/dororo.jpg";
             const title = document.querySelector(".title").textContent = "Dororo";
-            const description = "";
+            const description = "Dororo is a dark fantasy anime set in Sengoku-era Japan. It follows Hyakkimaru, a young ronin whose body parts were sacrificed to demons by his father in exchange for prosperity. Hyakkimaru embarks on a journey to reclaim his stolen body parts by defeating the demons, accompanied by Dororo, a spirited orphan thief. The series explores themes of humanity, morality, and survival in a world filled with supernatural challenges and historical intrigue.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn20 img").addEventListener("click",()=> { playTwenteen();
@@ -326,7 +328,7 @@ const playTwentyone= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/job.jpg";
             const title = document.querySelector(".title").textContent = "Jobless Reincarnation";
-            const description = "";
+            const description = "Jobless Reincarnation, also known as Mushoku Tensei, is a fantasy anime that follows Rudeus Greyrat, a man reincarnated into a magical world after a tragic accident in his previous life. Retaining his memories, Rudeus embarks on a journey to master magic, overcome his past traumas, and make the most of his second chance. The story explores themes of redemption, growth, and the complexities of relationships, all set against a richly detailed world filled with adventure and challenges";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn21 img").addEventListener("click",()=> { playTwentyone();
@@ -342,7 +344,7 @@ const playTwentytwo= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/kong.jpg";
             const title = document.querySelector(".title").textContent = "Ya Boy Kongming!";
-            const description = "";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn22 img").addEventListener("click",()=> { playTwentytwo();
