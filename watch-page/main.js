@@ -351,3 +351,36 @@ const playTwentytwo= () =>{
             window.scrollBy(0,-10000);});
         document.querySelector(".p22 p").addEventListener("click",()=> { playTwentytwo();
             window.scrollBy(0,-10000);});
+
+
+            const container = document.getElementById('textContainer');
+    const toggleText = document.getElementById('toggleText');
+
+    // Check if content overflows initially
+    const checkOverflow = () => {
+      if (container.scrollHeight > container.clientHeight) {
+        toggleText.style.display = 'inline';
+      } else {
+        toggleText.style.display = 'none';
+      }
+    };
+
+    // Toggle the container height
+    toggleText.addEventListener('click', () => {
+      if (container.classList.contains('expanded')) {
+        container.classList.remove('expanded');
+        toggleText.textContent = 'More';
+        
+        toggleText.style.bottom = "39px";
+      } else {
+        container.classList.add('expanded');
+        toggleText.textContent = 'Less';
+        toggleText.style.bottom = "-50px";
+      }
+      
+    });
+
+    // Initial check
+    checkOverflow();
+    window.addEventListener('resize', checkOverflow); // Recheck on window resize
+

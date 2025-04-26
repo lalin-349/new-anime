@@ -66,7 +66,60 @@ html {
     word-wrap: break-word; /* important */
     font-weight: 300;
     /* background-color: grey; */
+    max-height: 100px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.3s ease;
 }
+
+  .des.expanded {
+    max-height: none; /* Allows the full text to show */
+  }
+
+  .toggle-text {
+    color:whitesmoke;
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    padding: 0 5px;
+    font-family: "Inter", sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+  }
+
+  .toggle-text:hover{
+    color: aqua;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .buttons{
     width: calc(100% - 50%);
     display: flex;
@@ -171,4 +224,9 @@ html {
     .recom-watch {
         margin-top: 45%;
     }
+    .toggle-text {
+        bottom: 39px;
+        right: 10px;
+        padding: 0 5px;
+      }
 }
