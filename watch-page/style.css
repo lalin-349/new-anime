@@ -85,10 +85,14 @@ html {
     font-family: "Inter", sans-serif;
 }
 
-.recom {
+.recom-watch {
     font-family: "Fugaz One";
     font-size: 3em;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
 }
 
 .text-recom {
@@ -134,11 +138,15 @@ html {
         margin-bottom: 300px;
     }
     .info{
-        
-     
+       margin-top: 50px; 
+       display: flex;
+       align-items: center;
+       justify-content: center;
     }
     .box{
         display: flex;
+        margin-top: -250px;
+        width: calc(100% - 20%);
     }
     .pic-title {
         display: flex;
@@ -147,5 +155,20 @@ html {
     .banner-image {
         display: flex;
     }
-    
+    .des {
+        position: absolute;
+        /* top: 10%;
+        left: 35%; */
+        transform: translate(180px,30px);
+        font-size: .8em;
+        margin: 70px 0px 0px 10px;
+        width: calc(100% - 30%);
+    }
+    .title{
+        margin-left: 40px;
+        margin-top: -160px;
+    }
+    .recom-watch {
+        margin-top: 45%;
+    }
 }
