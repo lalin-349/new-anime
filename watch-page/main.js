@@ -365,20 +365,72 @@ const playTwentytwo= () =>{
       }
     };
 
-    // Toggle the container height
-    toggleText.addEventListener('click', () => {
-      if (container.classList.contains('expanded')) {
-        container.classList.remove('expanded');
-        toggleText.textContent = 'More';
-        
-        toggleText.style.bottom = "39px";
-      } else {
-        container.classList.add('expanded');
-        toggleText.textContent = 'Less';
-        toggleText.style.bottom = "-50px";
-      }
-      
-    });
+//     toggleText.addEventListener("click", () =>{
+
+//         if(window.innerWidth <= 700) {
+//             toggleText.style.marginTop = "400px";
+//           } else {
+//             toggleText.style.marginTop = "0px";
+//           } 
+          
+// });
+
+toggleText.addEventListener("click", () => {
+    if (window.innerWidth <= 700) { // Activates only when screen width is 700px or less
+        if (container.classList.contains("expanded")) {
+            container.classList.remove("expanded");
+            toggleText.textContent = "More";
+            toggleText.style.bottom = "39px";
+        } else {
+            container.classList.add("expanded");
+            toggleText.textContent = "Less";
+            toggleText.style.bottom = "-50px";
+        }
+    }
+});
+
+toggleText.addEventListener("click", () => {
+    if (window.innerWidth > 700) { // Activates only when screen width is 700px or less
+        if (container.classList.contains("expanded")) {
+            container.classList.remove("expanded");
+            toggleText.textContent = "More";
+        } else {
+            container.classList.add("expanded");
+            toggleText.textContent = "Less";
+        }
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Initial check
     checkOverflow();
