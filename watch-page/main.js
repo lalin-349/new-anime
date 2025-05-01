@@ -436,3 +436,14 @@ toggleText.addEventListener("click", () => {
     checkOverflow();
     window.addEventListener('resize', checkOverflow); // Recheck on window resize
 
+    const dots = document.querySelector(".dots");
+    dots.onclick = function() {
+       const navBar = document.querySelector(".nav_phone");
+        navBar.classList.toggle("active");
+      const logo = document.querySelector(".logo a");
+        logo.classList.toggle("active");
+      const dots = document.querySelector(".dots");
+        dots.classList.toggle("active");
+  
+    }
+  

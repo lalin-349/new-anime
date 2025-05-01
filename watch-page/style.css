@@ -272,5 +272,7 @@ html {
         font-size: .8em;
         
       }
-    
+    .title{
+        margin-top: 0px;
+    }
 }
