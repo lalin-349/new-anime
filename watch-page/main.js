@@ -216,7 +216,7 @@ const playForteen = () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/detective.jpg";
             const title = document.querySelector(".title").textContent = "The Detective is already Dead";
-            const description = "";
+            const description = "The Detective Is Already Dead (Tantei wa Mō, Shindeiru.) is a mystery anime based on a light novel series. It follows Kimihiko Kimizuka, a former assistant to the legendary detective Siesta, who finds himself entangled in lingering mysteries even after her death. The anime aired in 2021 and has a second season announced.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn14 img").addEventListener("click",()=> { playForteen();
