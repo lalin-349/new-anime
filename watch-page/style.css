@@ -279,4 +279,22 @@ html {
         width: 100%;
         height: 270px;
     }
+    .toggle-text {
+        bottom:-120px;
+        right: -30px;
+        padding: 0 5px;
+        font-size: .8em;
+        
+      }
+    
+}
+
+@media screen and (max-width:414px) {
+    .text-recom{
+        margin-bottom: 100px;
+        font-size: 0.8em;
+    }
+    .recom-watch{
+        font-size: 2.4em;
+    }
 }

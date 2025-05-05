@@ -1,4 +1,3 @@
-
 const playOne = () =>{
     const gg = document.querySelector(".btn1");
     const gb = document.querySelector(".video-tag");
@@ -376,7 +375,19 @@ const playTwentytwo= () =>{
 // });
 
 toggleText.addEventListener("click", () => {
-    if (window.innerWidth <= 700) { // Activates only when screen width is 700px or less
+    if (window.innerWidth <= 500) { // Activates only when screen width is 700px or less
+        if (container.classList.contains("expanded")) {
+            container.classList.remove("expanded");
+            toggleText.textContent = "More";
+            toggleText.style.bottom = "-110px";
+        } else {
+            container.classList.add("expanded");
+            toggleText.textContent = "Less";
+            toggleText.style.bottom = "-150px";
+        }
+    }
+
+    else if (window.innerWidth <= 700) { // Activates only when screen width is 700px or less
         if (container.classList.contains("expanded")) {
             container.classList.remove("expanded");
             toggleText.textContent = "More";
@@ -387,6 +398,7 @@ toggleText.addEventListener("click", () => {
             toggleText.style.bottom = "-50px";
         }
     }
+
 });
 
 toggleText.addEventListener("click", () => {
@@ -400,6 +412,7 @@ toggleText.addEventListener("click", () => {
         }
     }
 });
+
 
 
 
