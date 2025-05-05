@@ -357,7 +357,7 @@ const playTwentythree= () =>{
             gb.src = "video/mashle.mp4";
             gb.load();
             gb.play();
-            const pic = document.querySelector(".banner-image").src = "../img/mashle.jpg";
+            const pic = document.querySelector(".banner-image").src = "../img2/mash.jpg";
             const title = document.querySelector(".title").textContent = "Mashle";
             const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
             const des = document.querySelector(".des").textContent = description;
@@ -370,6 +370,27 @@ const playTwentyfour= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img/quin.jpg";
             const title = document.querySelector(".title").textContent = "The quintal quintuplets";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+const slideone= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/black.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/black.jpeg";
+            const title = document.querySelector(".title").textContent = "Black clover";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
+const slidetwo= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/onepunch.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/one_punch.jpg";
+            const title = document.querySelector(".title").textContent = "One punch";
             const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
             const des = document.querySelector(".des").textContent = description;
         }
@@ -472,6 +493,23 @@ window.onload = function () {
         playFunctions[playType](); // Call the correct function dynamically
     } else {
         console.error("No matching function for playType:", playType);
+    }
+};
+
+window.onload = function () {
+    const paramslide = new URLSearchParams(window.location.search);
+    const playTypee = paramslide.get("slide"); // Get the "play" parameter
+
+    const playFunctionss = {
+        one: playOne, two: slideone, three: playFour, four: playThree,
+        five: slidetwo, six: playSix, seven: playSeven, eight: playEight,
+        nine: playNine, ten: playTen, eleven: playEleven, twelve: playTwelve
+    };
+
+    if (playFunctionss[playTypee]) {
+        playFunctionss[playTypee](); // Call the correct function dynamically
+    } else {
+        console.error("No matching function for playType:", playTypee);
     }
 };
 

@@ -101,3 +101,19 @@ var slider1 = new Swiper ('.slider1', {
         }
     }
 });
+  document.addEventListener("DOMContentLoaded", () => {
+    let wordNumbers = ["one", "two", "three", "four", "five", "six", "seven", 
+                       "eight", "nine", "ten", "eleven", "twelve", "thirteen", 
+                       "fourteen", "fifteen", "sixteen", "seventeen", 
+                       "eighteen", "nineteen", "twenty","twentyone","twentytwo","twentythree","twentyfour"];
+
+    for (let i = 1; i <= 13; i++) {
+        let picElement = document.getElementById(`slide${wordNumbers[i - 1]}`); // Match picOne, picTwo, etc.
+
+        if (picElement) { // Check if the element exists before adding the event listener
+            picElement.addEventListener("click", () => {
+                window.location.href = `watch-page/index.html?slide=${wordNumbers[i - 1]}`;
+            });
+        }
+    }
+});
