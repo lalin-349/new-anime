@@ -54,7 +54,7 @@ const playFour = () =>{
     gb.play();
     const pic = document.querySelector(".banner-image").src = "../img2/image-3.jpg";
     const title = document.querySelector(".title").textContent = "Demon slayer";
-    const description = "Demon Slayer: Kimetsu no Yaiba is a captivating anime and manga series set in Taisho-era Japan. It follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer after his family is tragically killed by demons, and his sister Nezuko is transformed into one. Tanjiro embarks on a journey to avenge his family and find a cure for Nezuko, encountering fierce battles, breathtaking animation, and a rich cast of characters along the way";
+    const description = "Demon Slayer: Kimetsu no Yaiba is a captivating anime and manga series set in Taisho-era Japan. It follows Tanjiro Kamado, a kind-hearted boy who becomes a demon slayer after his family is tragically killed by demons, and his sister Nezuko is transformed into one. Tanjiro embarks on a journey to avenge his family and find a cure for Nezuko, encountering fierce battles, breathtaking animation, and a rich cast of characters along the way.";
     const des = document.querySelector(".des").textContent = description;
 }
 document.querySelector(".btn4 img").addEventListener("click",()=> { playFour();
@@ -135,7 +135,7 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/undead.jpg";
             const title = document.querySelector(".title").textContent = "Undead unlock";
-            const description = "Undead Unluck is a fascinating anime that blends action, comedy, and supernatural elements. It follows Fuuko Izumo, a girl cursed with unluck, which brings calamity to anyone she touches. Her life takes a turn when she meets Andy, an immortal man seeking the ultimate death. Together, they navigate a world of mysterious powers, secret organizations, and thrilling adventures. It's a unique mix of humor and heartfelt moments!";
+            const description = "Undead Unluck is a fascinating anime that blends action, comedy, and supernatural elements. It follows Fuuko Izumo, a girl cursed with unluck, which brings calamity to anyone she touches. Her life takes a turn when she meets Andy, an immortal man seeking the ultimate death. Together, they navigate a world of mysterious powers, secret organizations, and thrilling adventures. It's a unique mix of humor and heartfelt moments!.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn9 img").addEventListener("click",()=> { playNine();
@@ -167,7 +167,7 @@ document.querySelector(".p5 p").addEventListener("click",()=> { playFive();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/mill.jpg";
             const title = document.querySelector(".title").textContent = "The millionaire detective";
-            const description = "The Millionaire Detective - Balance: Unlimited is a stylish anime that combines mystery, comedy, and action. It follows Daisuke Kambe, a detective with immense wealth, who uses his money and cutting-edge gadgets to solve crimes in unconventional ways. He's paired with Haru Katou, a detective who values justice and despises Daisuke's reliance on money. Their contrasting personalities create tension and humor as they tackle complex cases together. The series explores themes of morality, teamwork, and the influence of wealth";
+            const description = "The Millionaire Detective - Balance: Unlimited is a stylish anime that combines mystery, comedy, and action. It follows Daisuke Kambe, a detective with immense wealth, who uses his money and cutting-edge gadgets to solve crimes in unconventional ways. He's paired with Haru Katou, a detective who values justice and despises Daisuke's reliance on money. Their contrasting personalities create tension and humor as they tackle complex cases together. The series explores themes of morality, teamwork, and the influence of wealth.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn11 img").addEventListener("click",()=> { playEleven();
@@ -247,7 +247,7 @@ const playSixteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/frieren.jpg";
             const title = document.querySelector(".title").textContent = "Frieren: Beyond Journey's End";
-            const description = "Frieren: Beyond Journey's End is a poignant anime that delves into themes of mortality, memory, and the passage of time. It follows Frieren, an elven mage who outlives her companions after their victory over the Demon King. As she reflects on her past adventures, Frieren embarks on a new journey to understand humanity and forge deeper connections. The story beautifully balances moments of nostalgia with the promise of new beginnings, offering a heartfelt exploration of life and legacy";
+            const description = "Frieren: Beyond Journey's End is a poignant anime that delves into themes of mortality, memory, and the passage of time. It follows Frieren, an elven mage who outlives her companions after their victory over the Demon King. As she reflects on her past adventures, Frieren embarks on a new journey to understand humanity and forge deeper connections. The story beautifully balances moments of nostalgia with the promise of new beginnings, offering a heartfelt exploration of life and legacy.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn16 img").addEventListener("click",()=> { playSixteen();
@@ -279,7 +279,7 @@ const playEightteen= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/yona.jpg";
             const title = document.querySelector(".title").textContent = "Yona of the Dawn";
-            const description = "Yona of the Dawn is an adventure fantasy anime that follows Princess Yona, who lives a sheltered life in the Kingdom of Kouka. Her world is turned upside down when her father is betrayed and killed, forcing her to flee the palace with her loyal bodyguard, Hak. As she journeys through the kingdom, Yona discovers the harsh realities of the world and sets out to reclaim her throne. Along the way, she learns of an ancient legend involving four dragon warriors, who may hold the key to her destiny. The story is filled with themes of growth, resilience, and the pursuit of justice";
+            const description = "Yona of the Dawn is an adventure fantasy anime that follows Princess Yona, who lives a sheltered life in the Kingdom of Kouka. Her world is turned upside down when her father is betrayed and killed, forcing her to flee the palace with her loyal bodyguard, Hak. As she journeys through the kingdom, Yona discovers the harsh realities of the world and sets out to reclaim her throne. Along the way, she learns of an ancient legend involving four dragon warriors, who may hold the key to her destiny. The story is filled with themes of growth, resilience, and the pursuit of justice.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn18 img").addEventListener("click",()=> { playEightteen();
@@ -327,7 +327,7 @@ const playTwentyone= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/job.jpg";
             const title = document.querySelector(".title").textContent = "Jobless Reincarnation";
-            const description = "Jobless Reincarnation, also known as Mushoku Tensei, is a fantasy anime that follows Rudeus Greyrat, a man reincarnated into a magical world after a tragic accident in his previous life. Retaining his memories, Rudeus embarks on a journey to master magic, overcome his past traumas, and make the most of his second chance. The story explores themes of redemption, growth, and the complexities of relationships, all set against a richly detailed world filled with adventure and challenges";
+            const description = "Jobless Reincarnation, also known as Mushoku Tensei, is a fantasy anime that follows Rudeus Greyrat, a man reincarnated into a magical world after a tragic accident in his previous life. Retaining his memories, Rudeus embarks on a journey to master magic, overcome his past traumas, and make the most of his second chance. The story explores themes of redemption, growth, and the complexities of relationships, all set against a richly detailed world filled with adventure and challenges.";
             const des = document.querySelector(".des").textContent = description;
         }
         document.querySelector(".btn21 img").addEventListener("click",()=> { playTwentyone();
@@ -354,6 +354,7 @@ const playTwentytwo= () =>{
 
             const container = document.getElementById('textContainer');
     const toggleText = document.getElementById('toggleText');
+    
 
     // Check if content overflows initially
     const checkOverflow = () => {
@@ -375,7 +376,22 @@ const playTwentytwo= () =>{
 // });
 
 toggleText.addEventListener("click", () => {
-    if (window.innerWidth <= 500) { // Activates only when screen width is 700px or less
+    if (window.innerWidth <= 470) { // Activates only when screen width is 700px or less
+        const recom = document.querySelector(".recom-watch");
+        if (container.classList.contains("expanded")) {
+            container.classList.remove("expanded");
+            toggleText.textContent = "More";
+            toggleText.style.bottom = "-140px";
+            recom.style.marginTop = "200px";
+        } else {
+            container.classList.add("expanded");
+            toggleText.textContent = "Less";
+            toggleText.style.bottom = "-160px";
+            container.style.marginBottom = "200px";
+            recom.style.marginTop = "400px";
+        }
+    }
+    else if (window.innerWidth <= 500) { // Activates only when screen width is 700px or less
         if (container.classList.contains("expanded")) {
             container.classList.remove("expanded");
             toggleText.textContent = "More";
