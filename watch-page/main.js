@@ -1,3 +1,4 @@
+
 const playOne = () =>{
     const gg = document.querySelector(".btn1");
     const gb = document.querySelector(".video-tag");
@@ -207,7 +208,7 @@ const playThirteen= () =>{
         document.querySelector(".p13 p").addEventListener("click",()=> { playThirteen();
             window.scrollBy(0,-10000);});
 
-const playForteen = () =>{
+const playFourteen = () =>{
             const gg = document.querySelector(".btn14");
             const gb = document.querySelector(".video-tag");
             gb.src = gg.getAttribute("src");
@@ -218,9 +219,9 @@ const playForteen = () =>{
             const description = "The Detective Is Already Dead (Tantei wa Mō, Shindeiru.) is a mystery anime based on a light novel series. It follows Kimihiko Kimizuka, a former assistant to the legendary detective Siesta, who finds himself entangled in lingering mysteries even after her death. The anime aired in 2021 and has a second season announced.";
             const des = document.querySelector(".des").textContent = description;
         }
-        document.querySelector(".btn14 img").addEventListener("click",()=> { playForteen();
+        document.querySelector(".btn14 img").addEventListener("click",()=> { playFourteen();
             window.scrollBy(0,-10000);});
-        document.querySelector(".p14 p").addEventListener("click",()=> { playForteen();
+        document.querySelector(".p14 p").addEventListener("click",()=> { playFourteen();
             window.scrollBy(0,-10000);});
 
 const playFifteen= () =>{
@@ -271,7 +272,7 @@ const playSeventeen= () =>{
         document.querySelector(".p17 p").addEventListener("click",()=> { playSeventeen();
             window.scrollBy(0,-10000);});
 
-const playEightteen= () =>{
+const playEighteen = () =>{
             const gg = document.querySelector(".btn18");
             const gb = document.querySelector(".video-tag");
             gb.src = gg.getAttribute("src");
@@ -282,9 +283,9 @@ const playEightteen= () =>{
             const description = "Yona of the Dawn is an adventure fantasy anime that follows Princess Yona, who lives a sheltered life in the Kingdom of Kouka. Her world is turned upside down when her father is betrayed and killed, forcing her to flee the palace with her loyal bodyguard, Hak. As she journeys through the kingdom, Yona discovers the harsh realities of the world and sets out to reclaim her throne. Along the way, she learns of an ancient legend involving four dragon warriors, who may hold the key to her destiny. The story is filled with themes of growth, resilience, and the pursuit of justice.";
             const des = document.querySelector(".des").textContent = description;
         }
-        document.querySelector(".btn18 img").addEventListener("click",()=> { playEightteen();
+        document.querySelector(".btn18 img").addEventListener("click",()=> { playEighteen();
             window.scrollBy(0,-10000);});
-        document.querySelector(".p18 p").addEventListener("click",()=> { playEightteen();
+        document.querySelector(".p18 p").addEventListener("click",()=> { playEighteen();
             window.scrollBy(0,-10000);});
 
 const playNineteen= () =>{
@@ -303,7 +304,7 @@ const playNineteen= () =>{
         document.querySelector(".p19 p").addEventListener("click",()=> { playNineteen();
             window.scrollBy(0,-10000);});
 
-const playTwenteen= () =>{
+const playTwenty= () =>{
             const gg = document.querySelector(".btn20");
             const gb = document.querySelector(".video-tag");
             gb.src = gg.getAttribute("src");
@@ -314,9 +315,9 @@ const playTwenteen= () =>{
             const description = "Dororo is a dark fantasy anime set in Sengoku-era Japan. It follows Hyakkimaru, a young ronin whose body parts were sacrificed to demons by his father in exchange for prosperity. Hyakkimaru embarks on a journey to reclaim his stolen body parts by defeating the demons, accompanied by Dororo, a spirited orphan thief. The series explores themes of humanity, morality, and survival in a world filled with supernatural challenges and historical intrigue.";
             const des = document.querySelector(".des").textContent = description;
         }
-        document.querySelector(".btn20 img").addEventListener("click",()=> { playTwenteen();
+        document.querySelector(".btn20 img").addEventListener("click",()=> { playTwenty();
             window.scrollBy(0,-10000);});
-        document.querySelector(".p20 p").addEventListener("click",()=> { playTwenteen();
+        document.querySelector(".p20 p").addEventListener("click",()=> { playTwenty();
             window.scrollBy(0,-10000);});
 
 const playTwentyone= () =>{
@@ -350,6 +351,29 @@ const playTwentytwo= () =>{
             window.scrollBy(0,-10000);});
         document.querySelector(".p22 p").addEventListener("click",()=> { playTwentytwo();
             window.scrollBy(0,-10000);});
+
+const playTwentythree= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/mashle.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img/mashle.jpg";
+            const title = document.querySelector(".title").textContent = "Mashle";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
+const playTwentyfour= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/quin.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img/quin.jpg";
+            const title = document.querySelector(".title").textContent = "The quintal quintuplets";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
 
 
             const container = document.getElementById('textContainer');
@@ -429,6 +453,27 @@ toggleText.addEventListener("click", () => {
     }
 });
 
+
+window.onload = function () {
+    const params = new URLSearchParams(window.location.search);
+    const playType = params.get("play"); // Get the "play" parameter
+
+    const playFunctions = {
+        one: playOne, two: playTwo, three: playThree, four: playFour,
+        five: playFive, six: playSix, seven: playSeven, eight: playEight,
+        nine: playNine, ten: playTen, eleven: playEleven, twelve: playTwelve,
+        thirteen: playThirteen, fourteen: playFourteen, fifteen: playFifteen,
+        sixteen: playSixteen, seventeen: playSeventeen, eighteen: playEighteen,
+        nineteen: playNineteen, twenty: playTwenty, twentyone: playTwentyone,
+        twentytwo: playTwentytwo, twentythree: playTwentythree,twentyfour:playTwentyfour
+    };
+
+    if (playFunctions[playType]) {
+        playFunctions[playType](); // Call the correct function dynamically
+    } else {
+        console.error("No matching function for playType:", playType);
+    }
+};
 
 
 
