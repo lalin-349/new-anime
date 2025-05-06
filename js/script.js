@@ -13,8 +13,7 @@ var slider1 = new Swiper ('.slider1', {
       clickable: true,
     },
     autoplay: {
-      // delay: 16000000000000,
-      delay: 180000,
+      delay: 1800,
     }
   });
 
@@ -24,9 +23,9 @@ var slider1 = new Swiper ('.slider1', {
       slidesPerGroup: 1,
       spaceBetween: 20,
       loop: true,
-      // autoplay: {
-      //   delay: 2000,
-      // },
+      autoplay: {
+        delay: 2000,
+      },
       pagination: {
         el: ".modal-swiper-pagination",
         clickable: true,
@@ -104,10 +103,9 @@ var slider1 = new Swiper ('.slider1', {
   document.addEventListener("DOMContentLoaded", () => {
     let wordNumbers = ["one", "two", "three", "four", "five", "six", "seven", 
                        "eight", "nine", "ten", "eleven", "twelve", "thirteen", 
-                       "fourteen", "fifteen", "sixteen", "seventeen", 
-                       "eighteen", "nineteen", "twenty","twentyone","twentytwo","twentythree","twentyfour"];
+                       "fourteen", "fifteen", "sixteen", "seventeen"];
 
-    for (let i = 1; i <= 13; i++) {
+    for (let i = 1; i <= 16; i++) {
         let picElement = document.getElementById(`slide${wordNumbers[i - 1]}`); // Match picOne, picTwo, etc.
 
         if (picElement) { // Check if the element exists before adding the event listener

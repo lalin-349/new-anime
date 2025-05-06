@@ -395,6 +395,101 @@ const slidetwo= () =>{
             const des = document.querySelector(".des").textContent = description;
         }
         
+const slidethree= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/zom.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/zom100.jpg";
+            const title = document.querySelector(".title").textContent = "Zom 100";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+
+const slidefour= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/slime.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/recartion.jpg";
+            const title = document.querySelector(".title").textContent = "i got reincarnated as a slime";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+const slidefive= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/fairy.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/fairy-tail.jpg";
+            const title = document.querySelector(".title").textContent = "Fairy Tail";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
+const slidesix= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/sk8.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/sk8.jpg";
+            const title = document.querySelector(".title").textContent = "sk8";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+const slideseven= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/hori.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/Horimiya.jpg";
+            const title = document.querySelector(".title").textContent = "Horimiya";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
+const slideeight= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/mashle.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/mash.jpg";
+            const title = document.querySelector(".title").textContent = "Mashle";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+const slidenine= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/spy.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/spy.jpg";
+            const title = document.querySelector(".title").textContent = "Spy x Family";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
+const slideten= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/assassin.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/class.jpg";
+            const title = document.querySelector(".title").textContent = "Assassin classroom";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+const slideeleven= () =>{
+            const gb = document.querySelector(".video-tag");
+            gb.src = "video/hxh.mp4";
+            gb.load();
+            gb.play();
+            const pic = document.querySelector(".banner-image").src = "../img2/hxh.jpg";
+            const title = document.querySelector(".title").textContent = "Hunter x Hunter";
+            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const des = document.querySelector(".des").textContent = description;
+        }
+        
 
 
             const container = document.getElementById('textContainer');
@@ -478,6 +573,7 @@ toggleText.addEventListener("click", () => {
 window.onload = function () {
     const params = new URLSearchParams(window.location.search);
     const playType = params.get("play"); // Get the "play" parameter
+    const playTypee = params.get("slide");
 
     const playFunctions = {
         one: playOne, two: playTwo, three: playThree, four: playFour,
@@ -489,22 +585,17 @@ window.onload = function () {
         twentytwo: playTwentytwo, twentythree: playTwentythree,twentyfour:playTwentyfour
     };
 
+    const playFunctionss = {
+        one: playOne, two: slideone, three: playFour, four: playThree,
+        five: slidetwo, six: slidethree, seven: slidefour, eight: slidefive,
+        nine: slidesix, ten: slideseven, eleven: slideeight, twelve: slidenine, thirteen:slideten , fourteen : slideeleven
+    };
+
     if (playFunctions[playType]) {
         playFunctions[playType](); // Call the correct function dynamically
     } else {
         console.error("No matching function for playType:", playType);
     }
-};
-
-window.onload = function () {
-    const paramslide = new URLSearchParams(window.location.search);
-    const playTypee = paramslide.get("slide"); // Get the "play" parameter
-
-    const playFunctionss = {
-        one: playOne, two: slideone, three: playFour, four: playThree,
-        five: slidetwo, six: playSix, seven: playSeven, eight: playEight,
-        nine: playNine, ten: playTen, eleven: playEleven, twelve: playTwelve
-    };
 
     if (playFunctionss[playTypee]) {
         playFunctionss[playTypee](); // Call the correct function dynamically
@@ -512,6 +603,8 @@ window.onload = function () {
         console.error("No matching function for playType:", playTypee);
     }
 };
+
+
 
 
 
