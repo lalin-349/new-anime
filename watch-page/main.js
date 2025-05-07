@@ -359,7 +359,7 @@ const playTwentythree= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/mash.jpg";
             const title = document.querySelector(".title").textContent = "Mashle";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Mashle: Magic and Muscles is a hilarious and action-packed anime set in a world where magic determines social status. The story follows Mash Burnedead, a young man with zero magical ability but absurd physical strength. To survive in a society that rejects non-magical beings, he enrolls in Easton Magic Academy, where he must prove that sheer muscle power can rival even the strongest spells.";
             const des = document.querySelector(".des").textContent = description;
         }
         
@@ -369,8 +369,8 @@ const playTwentyfour= () =>{
             gb.load();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/quin.jpg";
-            const title = document.querySelector(".title").textContent = "The quintal quintuplets";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const title = document.querySelector(".title").textContent = "The Quintessential Quintuplets";
+            const description = "The Quintessential Quintuplets! It's a popular romantic comedy anime and manga series written by Negi Haruba. The story follows Futaro Uesugi, a hardworking but financially struggling high school student who is hired as a private tutor for the Nakano quintuplets—Ichika, Nino, Miku, Yotsuba, and Itsuki. Despite their identical looks, each sister has a distinct personality, and Futaro must help them improve their grades while navigating their chaotic lives.";
             const des = document.querySelector(".des").textContent = description;
         }
 const slideone= () =>{
@@ -380,7 +380,7 @@ const slideone= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/black.jpeg";
             const title = document.querySelector(".title").textContent = "Black clover";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Black Clover is a high-energy shonen anime and manga series written by Yūki Tabata. It follows Asta, a determined young boy born without magic in a world where magic is everything. Despite this, he dreams of becoming the Wizard King, the strongest mage in the Clover Kingdom. His rival and childhood friend, Yuno, is a prodigy with immense magical talent. When they both receive their grimoires, Asta’s turns out to be a rare five-leaf grimoire that grants him anti-magic abilities.";
             const des = document.querySelector(".des").textContent = description;
         }
         
@@ -391,7 +391,7 @@ const slidetwo= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/one_punch.jpg";
             const title = document.querySelector(".title").textContent = "One punch";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "One Punch Man is a wildly popular superhero anime and manga series created by ONE. It follows Saitama, a seemingly ordinary man who trained so intensely that he became the strongest hero—capable of defeating any opponent with a single punch. However, his overwhelming strength leaves him bored, as he longs for a real challenge.";
             const des = document.querySelector(".des").textContent = description;
         }
         
@@ -402,7 +402,7 @@ const slidethree= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/zom100.jpg";
             const title = document.querySelector(".title").textContent = "Zom 100";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Zom 100: Bucket List of the Dead is a unique twist on the zombie apocalypse genre, blending dark comedy, survival horror, and adventure. The story follows Akira Tendō, a corporate worker trapped in a soul-crushing job. When a zombie outbreak suddenly occurs, instead of panicking, Akira feels liberated—finally free from his miserable routine. He decides to make the most of his newfound freedom by completing a bucket list of 100 things before he inevitably turns into a zombie.";
             const des = document.querySelector(".des").textContent = description;
         }
 
@@ -412,8 +412,7 @@ const slidefour= () =>{
             gb.load();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/recartion.jpg";
-            const title = document.querySelector(".title").textContent = "i got reincarnated as a slime";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const title = document.querySelector(".title").textContent = "That Time I Got Reincarnated as a Slime is a fantasy isekai anime based on the light novel series by Fuse. The story follows Satoru Mikami, an ordinary corporate worker who dies and is reincarnated in another world as a slime named Rimuru Tempest. Despite his seemingly weak form, Rimuru gains powerful abilities, including Predator, which allows him to absorb and mimic skills from others.";
             const des = document.querySelector(".des").textContent = description;
         }
 const slidefive= () =>{
@@ -423,7 +422,7 @@ const slidefive= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/fairy-tail.jpg";
             const title = document.querySelector(".title").textContent = "Fairy Tail";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Fairy Tail is a fantasy adventure anime based on the manga by Hiro Mashima. The story follows Natsu Dragneel, a fire-wielding Dragon Slayer wizard, as he searches for his missing adoptive father, Igneel, while taking on thrilling missions with his guildmates in Fairy Tail. Alongside Lucy Heartfilia, Gray Fullbuster, Erza Scarlet, and the lovable Happy, Natsu faces powerful enemies, dark guilds, and ancient magic.";
             const des = document.querySelector(".des").textContent = description;
         }
         
@@ -434,7 +433,7 @@ const slidesix= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/sk8.jpg";
             const title = document.querySelector(".title").textContent = "sk8";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "SK8 the Infinity is a sports anime centered around high-speed skateboarding races. Produced by Studio Bones, it aired in 2021 and quickly gained popularity for its stylish animation, intense rivalries, and strong character dynamics.The story follows Reki Kyan, a passionate skateboarder, and Langa Hasegawa, a transfer student from Canada with a background in snowboarding. Together, they dive into the underground world of S, a secret, no-holds-barred skateboarding competition held in an abandoned mine. As Langa adapts his snowboarding skills to skateboarding, he becomes a formidable competitor, challenging elite skaters in thrilling downhill races.";
             const des = document.querySelector(".des").textContent = description;
         }
 const slideseven= () =>{
@@ -444,7 +443,7 @@ const slideseven= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/Horimiya.jpg";
             const title = document.querySelector(".title").textContent = "Horimiya";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Horimiya is a romantic comedy anime based on the manga by HERO and Daisuke Hagiwara. It tells the story of Kyoko Hori, a popular and outgoing high school girl, and Izumi Miyamura, a quiet and seemingly gloomy classmate. However, outside of school, they both have hidden sides—Hori is more casual and home-oriented, while Miyamura has tattoos and piercings, giving him a completely different vibe. Their unexpected friendship blossoms into a heartfelt romance as they learn more about each other.";
             const des = document.querySelector(".des").textContent = description;
         }
         
@@ -455,7 +454,7 @@ const slideeight= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/mash.jpg";
             const title = document.querySelector(".title").textContent = "Mashle";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Mashle: Magic and Muscles is a fantasy comedy anime that flips the script on traditional magic-based stories. Set in a world where magic determines social status, the story follows Mash Burnedead, a young man with zero magical ability but superhuman strength. To survive in a society that rejects non-magical beings, he enrolls in Easton Magic Academy, where he must prove that sheer muscle power can rival even the strongest spells.";
             const des = document.querySelector(".des").textContent = description;
         }
 const slidenine= () =>{
@@ -465,7 +464,7 @@ const slidenine= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/spy.jpg";
             const title = document.querySelector(".title").textContent = "Spy x Family";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Spy x Family is a spy comedy anime based on the manga by Tatsuya Endo. It follows Loid Forger, a top-secret spy known as Twilight, who must create a fake family to infiltrate an elite school and get close to a high-profile politician. However, his wife, Yor, is secretly an assassin, and his adopted daughter, Anya, is a telepath—though none of them know each other's true identities.";
             const des = document.querySelector(".des").textContent = description;
         }
         
@@ -476,7 +475,7 @@ const slideten= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/class.jpg";
             const title = document.querySelector(".title").textContent = "Assassin classroom";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Assassination Classroom is a comedy-action anime based on the manga by Yūsei Matsui. The story follows Koro-sensei, a mysterious, powerful creature who has destroyed 70% of the Moon and threatens to do the same to Earth. However, he offers humanity a chance—he becomes the homeroom teacher of Class 3-E, a group of struggling students, and gives them one year to assassinate him before he carries out his plan.";
             const des = document.querySelector(".des").textContent = description;
         }
 const slideeleven= () =>{
@@ -486,7 +485,7 @@ const slideeleven= () =>{
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/hxh.jpg";
             const title = document.querySelector(".title").textContent = "Hunter x Hunter";
-            const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
+            const description = "Hunter x Hunter is a fantasy adventure anime based on the manga by Yoshihiro Togashi. It follows Gon Freecss, a young boy who discovers that his father, Ging, is a legendary Hunter—an elite individual who embarks on dangerous quests. Determined to find his father, Gon sets out to become a Hunter himself, facing intense challenges and forming strong friendships along the way.";
             const des = document.querySelector(".des").textContent = description;
         }
         
