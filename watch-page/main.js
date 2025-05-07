@@ -368,7 +368,7 @@ const playTwentyfour= () =>{
             gb.src = "video/quin.mp4";
             gb.load();
             gb.play();
-            const pic = document.querySelector(".banner-image").src = "../img/quin.jpg";
+            const pic = document.querySelector(".banner-image").src = "../img2/quin.jpg";
             const title = document.querySelector(".title").textContent = "The quintal quintuplets";
             const description = "Ya Boy Kongming! is a unique anime that blends historical elements with modern-day music and comedy. It follows Zhuge Kongming, a brilliant tactician from ancient China, who is reincarnated in present-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and decides to use his strategic genius to help her rise to stardom in the competitive music industry. The series is filled with clever tactics, humor, and heartfelt moments as Kongming navigates the challenges of a new era.";
             const des = document.querySelector(".des").textContent = description;
