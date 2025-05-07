@@ -1217,45 +1217,56 @@ html, body {
 @media screen and (max-width:620px) {
     .slides {
         width:200px;
-        height: 70%;
+        height: 300px;
         margin-top: 20px;
     }
+
+    .slider2 {
+        width: 100%;
+   }
+   .modal-swiper-button-next {
+    display: none;
+}
+
+.modal-swiper-button-prev {
+    display: none;
+}
+
+.card-items2{
+    height: 100%;
+}
+.swipe-for-more {
+    display: flex;
+    justify-content: center;
+        color: white;
+        font-family: "Jersey 20";
+        font-size: 20px;
+        margin-top: -25px;
+    }
+    
+
 }
 @media screen and (max-width:567px) {
 
-    .modal-swiper-button-next {
-        display: none;
-    }
-
-    .modal-swiper-button-prev {
-        display: none;
-    }
-    
-    .slider2 {
-         width: 100%;
-    }
-
+  
     .slides {
         border-radius: 0px;
+        height: 300px;
     }  
 
-    .swipe-for-more {
-        display: flex;
-        justify-content: center;
-            color: white;
-            font-family: "Jersey 20";
-            font-size: 20px;
-            margin-top: -25px;
-        }
-        
+    
 }
     
 @media screen and (max-width:511px) {
     .slides {
         width:100%;
-        height: auto;
-        margin-top: 20px;
+        height: 280px;
+        margin-top: 50px;
     }
+    .card-items2{
+        height: 100%;
+    }
+    
 }
 
 
@@ -1313,8 +1324,13 @@ html, body {
     transition: all 0.8s ease 0s;
     border-radius: 60px;
 }
-
-
+.slides {
+    width:100%;
+    height: 190px;
+}
+ .swipe-for-more {
+    margin-top: 10px;
+ }
     
 }
 
@@ -1327,6 +1343,11 @@ html, body {
         /* font-size: 2rem; */
         /* font-size-adjust: 0.5;*/
         font-size: 1.5em;
+    }
+
+    .slides {
+        width:100%;
+        height: 170px;
     }
 
 }
