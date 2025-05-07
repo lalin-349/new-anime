@@ -1232,9 +1232,7 @@ html, body {
     display: none;
 }
 
-.card-items2{
-    height: 100%;
-}
+
 .swipe-for-more {
     display: flex;
     justify-content: center;
@@ -1263,9 +1261,7 @@ html, body {
         height: 280px;
         margin-top: 50px;
     }
-    .card-items2{
-        height: 100%;
-    }
+    
     
 }
 
@@ -1329,7 +1325,7 @@ html, body {
     height: 190px;
 }
  .swipe-for-more {
-    margin-top: 10px;
+    margin-top: -50px;
  }
     
 }

@@ -412,7 +412,8 @@ const slidefour= () =>{
             gb.load();
             gb.play();
             const pic = document.querySelector(".banner-image").src = "../img2/recartion.jpg";
-            const title = document.querySelector(".title").textContent = "That Time I Got Reincarnated as a Slime is a fantasy isekai anime based on the light novel series by Fuse. The story follows Satoru Mikami, an ordinary corporate worker who dies and is reincarnated in another world as a slime named Rimuru Tempest. Despite his seemingly weak form, Rimuru gains powerful abilities, including Predator, which allows him to absorb and mimic skills from others.";
+            const title = document.querySelector(".title").textContent = "I got reincarnated as a Slime";
+            const description = "That Time I Got Reincarnated as a Slime is a fantasy isekai anime based on the light novel series by Fuse. The story follows Satoru Mikami, an ordinary corporate worker who dies and is reincarnated in another world as a slime named Rimuru Tempest. Despite his seemingly weak form, Rimuru gains powerful abilities, including Predator, which allows him to absorb and mimic skills from others.";
             const des = document.querySelector(".des").textContent = description;
         }
 const slidefive= () =>{

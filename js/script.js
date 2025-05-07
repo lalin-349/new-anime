@@ -24,7 +24,7 @@ var slider1 = new Swiper ('.slider1', {
       spaceBetween: 20,
       loop: true,
       autoplay: {
-        delay: 2000,
+        delay: 200000,
       },
       pagination: {
         el: ".modal-swiper-pagination",
