@@ -489,7 +489,7 @@
 }
 
 .banner-info6 .main-name6 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     /* font-family: "Palette Mosaic", system-ui; */
     font-family: 'Sedgwick Ave Display';
     color: rgb(0, 0, 0);
@@ -1583,11 +1583,10 @@
     }
 
     .banner-info6 .main-name6 {
-        font-size: 2.4em;
+        font-size: 1.9em;
         /* border: 2px solid white; */
-        margin-top: 75px;
+        margin-top: 45px;
         width: 5em;
-        margin-left: -9px;
 
     }
 
@@ -1606,8 +1605,8 @@
 
 @media screen and (max-width:1092px) {
     .banner-info6 .main-name6 {
-        font-size: 2em;
-        margin-top: 75px;
+        font-size: 1.7em;
+        margin-top: 45px;
     }
 }
 
@@ -1615,7 +1614,7 @@
 
 @media screen and (max-width:900px) {
     .banner-info6 .main-name6 {
-        font-size: 1.7em;
+        font-size: 1.5em;
         margin-left: 0px;
         margin-top: 75px;
 
@@ -1670,7 +1669,7 @@
 
     .banner-info6 .main-name6 {
         margin-top: 0%;
-        margin-left: 5%;
+        margin-left: -5%;
         -webkit-text-stroke: 1px rgb(245, 101, 82);
         font-size: 2.5em;
         width: 100%;
@@ -1696,7 +1695,7 @@
         padding: 0.4rem;
     }
     .banner-info6 .main-name6 {
-        margin-left: -1%;
+        margin-left: -9%;
     }
 }
 
@@ -1705,7 +1704,9 @@
         left: 20%;
     }
     .banner-info6 .main-name6 {
-        margin-left: -3%;
+        margin-left: -6%;
+        font-size: 2em;
+        margin-top: 10px;
     } 
 }
 
@@ -1713,8 +1714,8 @@
 @media screen and (max-width:576px){
     .banner-info6 .main-name6 {
 
-        font-size: 2em;
-        margin-top: 5px;
+        font-size: 1.7em;
+        margin-top: 15px;
     } 
 }
 
