@@ -649,6 +649,14 @@ window.onload = function () {
         logo.classList.toggle("active");
       const dots = document.querySelector(".dots");
         dots.classList.toggle("active");
-  
+      dots.classList.toggle("hide");
+
+  const dis = document.getElementById("dis");
+  const body = document.querySelector("body");
+    if (dots.classList.contains("hide")) {
+    dis.style.display = "none"; 
+  } else {
+    dis.style.display = "block";
+  }
     }
   

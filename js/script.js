@@ -104,7 +104,7 @@ var slider1 = new Swiper ('.slider1', {
                        "eighteen", "nineteen", "twenty","twentyone","twentytwo","twentythree","twentyfour"];
 
     for (let i = 1; i <= 24; i++) {
-        let picElement = document.getElementById(`pic${wordNumbers[i - 1]}`); // Match picOne, picTwo, etc.
+        let picElement = document.getElementById(`pic${wordNumbers[i - 1]}`); // Match picOne, picTwo, etc. in main html
 
         if (picElement) { // Check if the element exists before adding the event listener
             picElement.addEventListener("click", () => {
