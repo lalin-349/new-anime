@@ -1,0 +1,309 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x:hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color:rgb(34, 40, 49);
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+.main-banner{
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 500px;
+}
+.video-tag{
+    width: 70%;
+    
+    margin-left: 20px;
+    background-color: black;
+}
+
+.info {
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.box{
+    position: relative;
+    margin: 0px 15px;
+}
+.pic-title {
+        display: flex;
+    align-items: center;
+}
+.banner-image{
+    width:150px;
+    /* background-color: greenyellow; */
+    border-radius: 10px;
+    height: 240px;
+}
+
+.title{
+    
+    font-family: Poppins, Arial;
+    font-size: 2.5em;
+    margin-left: 30px;
+    /* font-weight: 400; */
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+     /* -webkit-text-stroke: 1px rgb(255, 255, 255);  */
+}
+.des {
+    color:whitesmoke;
+    font-family: "Inter", sans-serif;
+    font-size: .9em;
+    margin: 50px 0px;
+    width: 330px;
+    /* width: 100%; */
+    overflow-wrap: break-word; /* important */
+    word-wrap: break-word; /* important */
+    font-weight: 200;
+    /* background-color: grey; */
+    max-height: 100px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.3s ease;
+  white-space: normal; /* ensures wrapping */
+  display: block;      /* default for <p>, but good to confirm */
+  line-height: 1.4;    /* improves vertical spacing */
+
+}
+
+  .des.expanded {
+    max-height: none; /* Allows the full text to show */
+  }
+
+  .toggle-text {
+    color:whitesmoke;
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    padding: 0 5px;
+    font-family: "Inter", sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+  }
+
+  .toggle-text:hover{
+    color: aqua;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttons{
+    width: calc(100% - 50%);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;/*remove it */
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:2px solid aqua;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Inter", sans-serif;
+}
+
+.recom-watch {
+    font-family: "Fugaz One";
+    font-size: 3em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.text-recom {
+    font-family: "Open Sans-Regular", Helvetica;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width:1170px) {
+    .banner-image{
+        width:160px;
+        border-radius: 10px;
+        height: 230px;
+        margin-bottom: 40px;
+    }
+    .pic-title {
+    display: block;
+   
+}
+.title{
+    margin-left: 0px;
+}
+.info{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:900px){
+    .video-tag{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .main-banner{
+        margin-top: 25px;
+        display: block;
+
+        margin-bottom: 300px;
+    }
+    .info{
+       margin-top: 50px; 
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .box{
+        display: flex;
+        margin-top: -250px;
+        width: calc(100% - 20%);
+    }
+    .pic-title {
+        display: flex;
+        
+    }
+    .banner-image {
+        display: flex;
+    }
+    .des {
+        position: absolute;
+        /* top: 10%;
+        left: 35%; */
+        transform: translate(180px,30px);
+        font-size: .8em;
+        margin: 70px 0px 0px 10px;
+        width: calc(100% - 30%);
+    }
+    .title{
+        margin-left: 40px;
+        margin-top: -160px;
+    }
+    .recom-watch {
+        margin-top: 45%;
+    }
+    .toggle-text {
+        bottom: 39px;
+        right: 10px;
+        padding: 0 5px;
+      }
+}
+
+@media screen and (max-width:700px){ 
+    .des {
+       width: calc(100% - 40%);
+        max-height: 80px;
+        
+    }
+    
+}
+
+@media screen and (max-width:631px) {
+    .des{
+        margin-top: 100px;
+    }
+    .toggle-text {
+        bottom:-40px;
+        right: -30px;
+        padding: 0 5px;
+        font-size: .8em;
+        
+      }
+    
+}
+
+@media screen and (max-width:506px) {
+    
+    .des {
+        position: absolute;
+        /* top: 10%;
+        left: 35%; */
+        transform: translate(10px,200px);
+        font-size: .8em;
+        margin: 70px 0px 0px 10px;
+        width: 100%;
+    }
+    .toggle-text {
+        bottom:-40px;
+        right: -30px;
+        padding: 0 5px;
+        font-size: .8em;
+        
+      }
+    .title{
+        margin-top: 0px;
+    }
+    .video-tag{
+        width: 100%;
+        height: 270px;
+    }
+    .toggle-text {
+        bottom:-120px;
+        right: -30px;
+        padding: 0 5px;
+        font-size: .8em;
+        
+      }
+    
+}
+
+@media screen and (max-width:414px) {
+    .text-recom{
+        margin-bottom: 100px;
+        font-size: 0.8em;
+    }
+    .recom-watch{
+        font-size: 2.4em;
+    }
+}
