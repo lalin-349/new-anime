@@ -27,8 +27,8 @@ useEffect(() => {
     <div className="main-head">
         <div className="task_content">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./2nd-page/index2.html">Browse</a></li>
+                <li><a href="./">Home</a></li>
+                {/* <li><a href="./2nd-page/index2.html">Browse</a></li> */}
             </ul>
         </div>
 
@@ -51,7 +51,7 @@ useEffect(() => {
     <div className="nav_phone">
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="#">Browse</a></li>
+            {/* <li><a href="#">Browse</a></li> */}
             <li><a href="https://lalin-349.github.io/portfolio/index.html">About me</a></li>
             <li><a href="https://lalin-349.github.io/portfolio/contact.html">Contact</a></li>
         </ul>

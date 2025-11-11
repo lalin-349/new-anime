@@ -1,10 +1,12 @@
 import  play  from "../assets/img/1play.png"
 import calender from "../assets/img/calendar.png"
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react'
 import loopvideo from "../assets/video/one.mp4"
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Swiper from 'swiper';
+import "../swiper-bundle.min.css"
 export function Firstslider(prop){
   const navigate = useNavigate();
 
@@ -74,7 +76,11 @@ export function Context(){
     <div className="text-container">
         <h2> Explore the World</h2>
         <h6> of Anime</h6>
-        <a href="watch-page" className="button-link"><div className="button"> View Collection</div></a>
+        {/* <a href="watch-page" className="button-link"><div className="button"> View Collection</div></a> */}
+        <Link to="/watch-page" className="button-link">
+  <div className="button">View Collection</div>
+</Link>
+{/*the reason i did that cause a href is not working in github*/}
     </div>
 </div>
 
