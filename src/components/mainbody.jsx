@@ -25,7 +25,7 @@ export function Firstslider(prop){
           clickable: true,
         },
         autoplay: {
-          delay: 18000,
+          delay: 1800,
         },
       });
     }
