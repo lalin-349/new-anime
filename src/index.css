@@ -11,7 +11,9 @@ html, body {
     background-color:rgb(34, 40, 49);
     
 }
-
+.swiper-navigation-icon{
+    display: none;
+}
 
 /* .task_content ul li:nth-child(1),
 .task_content ul li:nth-child(2)

@@ -6,30 +6,9 @@ import loopvideo from "../assets/video/one.mp4"
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Swiper from 'swiper';
-import "../swiper-bundle.min.css"
+// import "../swiper-bundle.min.css"
 export function Firstslider(prop){
   const navigate = useNavigate();
-
-  useEffect(() => {
-    if (window.Swiper) {
-      new window.Swiper('.slider1', {
-        spaceBetween: 30,
-        loop: true,
-        effect: 'fade',
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        autoplay: {
-          delay: 1800,
-        },
-      });
-    }
-  }, []);
 
   const handleClick = () => {
     if (!prop.id) {

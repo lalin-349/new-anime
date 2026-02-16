@@ -7,38 +7,51 @@ import { useState, useRef, useEffect  } from "react";
 import { useSearchParams } from "react-router-dom";
 import { MediaContainer, GridOfShows } from "./watch-page/components/watch-page-components.jsx";
 import { shows } from "./watch-page/main-data.jsx";
+import Swiper from "swiper";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules"; 
+import "./swiper-bundle.min.css";
 
+
+
+Swiper.use([Navigation, Pagination, Autoplay, EffectFade]);
 
 export function FirstBanner() {
+  const swiperRef = useRef(null);
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+
+  useEffect(() => {
+    if (swiperRef.current && prevRef.current && nextRef.current) {
+      new Swiper(swiperRef.current, {
+        modules: [Navigation, Pagination, Autoplay, EffectFade], // ✅ register modules here
+        loop: true,
+        effect: "fade",
+        spaceBetween: 30,
+        autoplay: { delay: 1800 },
+        pagination: { el: ".swiper-pagination", clickable: true },
+        navigation: {
+          nextEl: nextRef.current,
+          prevEl: prevRef.current,
+        },
+      });
+    }
+  }, []);
+
   return (
-    <div className="banner swiper-container slider1">
+    <div ref={swiperRef} className="banner swiper-container slider1">
       <div className="swiper-wrapper">
         {MainBanner.map((prop, index) => (
-          <Firstslider
-            key={index}
-            title={prop.title}
-            duration={prop.duration}
-            year={prop.year}
-            id={prop.id} 
-            IdOfTheShow={prop.id}
-            description={prop.description}
-            smallboxpic={{
-              img: {
-                src: prop.smallboxpic.img.src,
-                alt: prop.smallboxpic.img.alt
-              }
-            }}
-            backgroundImage={prop.backgroundImage}
-          />
+          <Firstslider key={index} {...prop} />
         ))}
       </div>
-
       <div className="swiper-pagination"></div>
-      <div className="swiper-button-prev"></div>
-      <div className="swiper-button-next"></div>
+      <div ref={prevRef} className="swiper-button-prev"></div>
+      <div ref={nextRef} className="swiper-button-next"></div>
     </div>
   );
 }
+
+
 
 
 
